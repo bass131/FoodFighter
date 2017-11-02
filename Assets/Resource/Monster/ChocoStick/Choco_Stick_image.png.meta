@@ -1,0 +1,451 @@
+fileFormatVersion: 2
+guid: acfc10a1145e85b41a95291c1bac022a
+timeCreated: 1491372279
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Stick_attack_0
+    21300002: Stick_attack_01
+    21300004: Stick_attack_02
+    21300006: Stick_attack_03
+    21300008: Stick_attack_04
+    21300010: Stick_attack_05
+    21300012: Stick_attack_06
+    21300014: Stick_attack_07
+    21300016: Stick_attack_08
+    21300018: Stick_Move_00
+    21300020: Stick_Move_01
+    21300022: Stick_Move_02
+    21300024: Stick_Move_03
+    21300026: Stick_Move_04
+    21300028: Stick_Move_05
+    21300030: Stick_Move_06
+    21300032: Stick_Move_07
+    21300034: Stick_Move_08
+    21300036: Stick_Move_09
+    21300038: Stick_Move_10
+    21300040: Stick_die_00
+    21300042: Stick_die_01
+    21300044: Stick_die_02
+    21300046: Stick_die_03
+    21300048: Stick_die_04
+    21300050: Stick_die_05
+    21300052: Stick_die_06
+    21300054: Stick_die_07
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stick_attack_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 546
+        width: 85
+        height: 230
+      alignment: 9
+      pivot: {x: 0.48526186, y: 0.006258492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_attack_01
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 547
+        width: 120
+        height: 230
+      alignment: 9
+      pivot: {x: 0.506152, y: 0.003209653}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_attack_02
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 548
+        width: 120
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5411794, y: 0.003209653}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_attack_03
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 548
+        width: 136
+        height: 231
+      alignment: 9
+      pivot: {x: 0.6807116, y: 0.0056881597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_attack_04
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 548
+        width: 200
+        height: 230
+      alignment: 9
+      pivot: {x: 0.8416693, y: 0.0005734651}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_attack_05
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 548
+        width: 204
+        height: 230
+      alignment: 9
+      pivot: {x: 0.85141647, y: 0.0035204017}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_attack_06
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 548
+        width: 215
+        height: 230
+      alignment: 9
+      pivot: {x: 0.8631149, y: 0.009126348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_attack_07
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 547
+        width: 202
+        height: 230
+      alignment: 9
+      pivot: {x: 0.8420936, y: 0.009926705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_attack_08
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 547
+        width: 201
+        height: 230
+      alignment: 9
+      pivot: {x: 0.84578997, y: 0.0121173365}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_Move_00
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 274
+        width: 74
+        height: 230
+      alignment: 9
+      pivot: {x: 0.50000024, y: 0.0072792387}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_Move_01
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 274
+        width: 80
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5219314, y: 0.011408665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_Move_02
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 275
+        width: 73
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5328035, y: 0.0189684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_Move_03
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 259
+        width: 75
+        height: 245
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_Move_04
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 245
+        width: 72
+        height: 260
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_Move_05
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 245
+        width: 68
+        height: 260
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_Move_06
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 260
+        width: 71
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_Move_07
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 275
+        width: 92
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5801975, y: 0.0145376455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_Move_08
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 275
+        width: 92
+        height: 230
+      alignment: 9
+      pivot: {x: 0.59089065, y: 0.023091989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_Move_09
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 275
+        width: 92
+        height: 230
+      alignment: 9
+      pivot: {x: 0.60407823, y: 0.020953503}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_Move_10
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 275
+        width: 78
+        height: 230
+      alignment: 9
+      pivot: {x: 0.51891774, y: 0.018814882}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_die_00
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 5
+        width: 70
+        height: 230
+      alignment: 9
+      pivot: {x: 0.56178653, y: 0.0089935195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_die_01
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 5
+        width: 69
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5696462, y: 0.0132263815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_die_02
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 5
+        width: 68
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5848043, y: 0.011155007}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_die_03
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 4
+        width: 77
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5748925, y: 0.011082857}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_die_04
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 4
+        width: 77
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5436873, y: 0.011082091}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_die_05
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 5
+        width: 61
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5645529, y: 0.013172552}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_die_06
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 5
+        width: 59
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5814509, y: 0.015261941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Stick_die_07
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 5
+        width: 57
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5432739, y: 0.0138176335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

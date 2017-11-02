@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bullet
+  - Enemy
+  - MapWall
+  - Attack
+  - Attack_Stick
+  - Attack_Corn
+  - Attack_Jelly
+  - Camera
+  - Attack_Ice
+  - Road
+  - Attack_Giant
+  - Enemy_Ice
+  - Score
+  - EndGame
+  - Player_Up
+  - Player_Down
+  - Item
+  - ATK
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Life
+  - Mark
+  - Player
+  - Road
+  - Outline
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 3345161321
+    locked: 0
+  - name: Cloud
+    uniqueID: 918872973
+    locked: 0
+  - name: Front
+    uniqueID: 587630163
+    locked: 0
+  - name: Object
+    uniqueID: 241627563
+    locked: 0
+  - name: Monster
+    uniqueID: 2067674179
+    locked: 0
+  - name: Player_Back
+    uniqueID: 558910637
+    locked: 0
+  - name: Player_Mid
+    uniqueID: 1518423603
+    locked: 0
+  - name: Player_Gun
+    uniqueID: 999835619
+    locked: 0
+  - name: Player_Hand
+    uniqueID: 259437755
+    locked: 0
+  - name: ETC
+    uniqueID: 3903353903
+    locked: 0

@@ -1,0 +1,786 @@
+fileFormatVersion: 2
+guid: 67e83ef26348e154ca82a6800caa5ac6
+timeCreated: 1496171075
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ICE_Move_01
+    21300002: ICE_Move_02
+    21300004: ICE_Move_03
+    21300006: ICE_Move_04
+    21300008: ICE_Move_05
+    21300010: ICE_DIe_1
+    21300012: ICE_DIe_2
+    21300014: ICE_DIe_3
+    21300016: ICE_DIe_4
+    21300018: ICE_DIe_5
+    21300020: ICE_DIe_6
+    21300022: ICE_DIe_7
+    21300024: ICE_DIe_8
+    21300026: ICE_DIe_9
+    21300028: ICE_DIe_10
+    21300030: ICE_DIe_11
+    21300032: ICE_DIe_12
+    21300034: ICE_DIe_13
+    21300036: ICE_DIe_14
+    21300038: ICE_DIe_15
+    21300040: ICE_DIe_16
+    21300042: ICE_DIe_17
+    21300044: ICE_DIe_18
+    21300046: ICE_Attack_1
+    21300048: ICE_Attack_2
+    21300050: ICE_Attack_3
+    21300052: ICE_Attack_4
+    21300054: ICE_Attack_5
+    21300056: ICE_Attack_6
+    21300058: ICE_Attack_7
+    21300060: ICE_Attack_8
+    21300062: ICE_Attack_9
+    21300064: ICE_Attack_10
+    21300066: ICE_Attack_11
+    21300068: ICE_Attack_12
+    21300070: ICE_Attack_13
+    21300072: ICE_Attack_14
+    21300074: ICE_Attack_15
+    21300076: ICE_Attack_16
+    21300078: ICE_Attack_17
+    21300080: ICE_Attack_18
+    21300082: ICE_Attack_19
+    21300084: ICE_Attack_20
+    21300086: ICE_Attack_21
+    21300088: ICE_Attack_22
+    21300090: ICE_Attack_23
+    21300092: ICE_Attack_24
+    21300094: ICE_Attack_25
+    21300096: ICE_Attack_26
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ICE_Move_01
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 831
+        width: 90
+        height: 137
+      alignment: 9
+      pivot: {x: 0.45151156, y: -0.0000004455121}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Move_02
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 831
+        width: 90
+        height: 138
+      alignment: 9
+      pivot: {x: 0.45151165, y: -0.00000044228375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Move_03
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 831
+        width: 88
+        height: 141
+      alignment: 9
+      pivot: {x: 0.47343495, y: -0.002904148}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Move_04
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 830
+        width: 88
+        height: 140
+      alignment: 9
+      pivot: {x: 0.47869664, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Move_05
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 830
+        width: 89
+        height: 137
+      alignment: 9
+      pivot: {x: 0.4681455, y: -0.0000004455121}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_DIe_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 669
+        width: 87
+        height: 139
+      alignment: 9
+      pivot: {x: 0.452966, y: 0.0030289246}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_DIe_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 669
+        width: 86
+        height: 142
+      alignment: 9
+      pivot: {x: 0.45888394, y: 0.00908994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_DIe_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 669
+        width: 89
+        height: 139
+      alignment: 9
+      pivot: {x: 0.48783892, y: -0.00000043910185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_DIe_4
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 670
+        width: 85
+        height: 137
+      alignment: 9
+      pivot: {x: 0.48695248, y: 0.0034874687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_DIe_5
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 669
+        width: 86
+        height: 138
+      alignment: 9
+      pivot: {x: 0.49140292, y: 0.0017275603}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_DIe_6
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 669
+        width: 88
+        height: 139
+      alignment: 9
+      pivot: {x: 0.504201, y: 0.0026526141}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_DIe_7
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 668
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5557067, y: 0.0018602643}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_DIe_8
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 667
+        width: 76
+        height: 146
+      alignment: 9
+      pivot: {x: 0.5583721, y: -0.0013544788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_DIe_9
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 667
+        width: 67
+        height: 143
+      alignment: 9
+      pivot: {x: 0.5871372, y: -0.0015318544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_DIe_10
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 666
+        width: 66
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5676399, y: 0.0010524077}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_DIe_11
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 687
+        width: 71
+        height: 120
+      alignment: 9
+      pivot: {x: 0.50608546, y: 0.0031199136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_DIe_12
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 688
+        width: 67
+        height: 120
+      alignment: 9
+      pivot: {x: 0.53224295, y: 0.0031199136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_DIe_13
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 691
+        width: 67
+        height: 123
+      alignment: 9
+      pivot: {x: 0.52579325, y: 0.0047006994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_DIe_14
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 688
+        width: 68
+        height: 119
+      alignment: 9
+      pivot: {x: 0.5381236, y: 0.0062060957}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_DIe_15
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 691
+        width: 71
+        height: 119
+      alignment: 9
+      pivot: {x: 0.53042644, y: 0.0056829937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_DIe_16
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 690
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.5116775, y: 0.0025752732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_DIe_17
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 533
+        width: 68
+        height: 119
+      alignment: 9
+      pivot: {x: 0.5411379, y: -0.00006462546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_DIe_18
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 536
+        width: 68
+        height: 119
+      alignment: 9
+      pivot: {x: 0.54279464, y: -0.00006462546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 373
+        width: 88
+        height: 136
+      alignment: 9
+      pivot: {x: 0.47520494, y: -0.00000022439396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 374
+        width: 90
+        height: 136
+      alignment: 9
+      pivot: {x: 0.49595964, y: 0.0026348338}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 375
+        width: 88
+        height: 136
+      alignment: 9
+      pivot: {x: 0.49586818, y: 0.0026343851}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 374
+        width: 88
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5041327, y: 0.0026350582}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 375
+        width: 90
+        height: 136
+      alignment: 9
+      pivot: {x: 0.5080814, y: 0.0026350582}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 373
+        width: 82
+        height: 111
+      alignment: 9
+      pivot: {x: 0.47782564, y: 0.005284765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 373
+        width: 91
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5151501, y: 0.0053357724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 374
+        width: 91
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5151501, y: 0.0017963756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 374
+        width: 105
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5820632, y: 0.0061950684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 373
+        width: 116
+        height: 104
+      alignment: 9
+      pivot: {x: 0.63084567, y: 0.0044009867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 375
+        width: 124
+        height: 108
+      alignment: 9
+      pivot: {x: 0.6534739, y: 0.0003000895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 374
+        width: 128
+        height: 104
+      alignment: 9
+      pivot: {x: 0.6568966, y: 0.0030088604}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 246
+        width: 131
+        height: 110
+      alignment: 9
+      pivot: {x: 0.6584414, y: 0.0073115956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 246
+        width: 131
+        height: 104
+      alignment: 9
+      pivot: {x: 0.66810584, y: 0.00839078}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 246
+        width: 132
+        height: 104
+      alignment: 9
+      pivot: {x: 0.6702876, y: 0.008319783}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_16
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 246
+        width: 134
+        height: 119
+      alignment: 9
+      pivot: {x: 0.67197794, y: 0.009041153}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_17
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 237
+        width: 135
+        height: 127
+      alignment: 9
+      pivot: {x: 0.67909074, y: 0.010471374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_18
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 234
+        width: 142
+        height: 136
+      alignment: 9
+      pivot: {x: 0.6918834, y: 0.006182951}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_19
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 233
+        width: 140
+        height: 134
+      alignment: 9
+      pivot: {x: 0.6754364, y: 0.007404384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_20
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 232
+        width: 141
+        height: 133
+      alignment: 9
+      pivot: {x: 0.6878004, y: 0.015242612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_21
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 232
+        width: 145
+        height: 137
+      alignment: 9
+      pivot: {x: 0.70114577, y: 0.015389881}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_22
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 37
+        width: 146
+        height: 136
+      alignment: 9
+      pivot: {x: 0.6925936, y: 0.012428592}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_23
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 37
+        width: 142
+        height: 147
+      alignment: 9
+      pivot: {x: 0.70097435, y: 0.0060890093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_24
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 36
+        width: 147
+        height: 141
+      alignment: 9
+      pivot: {x: 0.70168215, y: 0.008473498}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_25
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 37
+        width: 153
+        height: 140
+      alignment: 9
+      pivot: {x: 0.7170426, y: 0.004753685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ICE_Attack_26
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 36
+        width: 152
+        height: 143
+      alignment: 9
+      pivot: {x: 0.7118366, y: 0.006907803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

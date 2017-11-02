@@ -1,0 +1,340 @@
+fileFormatVersion: 2
+guid: 8840e68efc8e55e4da50efcdef6ffcb1
+timeCreated: 1509526321
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Boss_ATK__0
+    21300002: Boss_ATK__1
+    21300004: Boss_ATK__2
+    21300006: Boss_ATK__3
+    21300008: Boss_ATK__4
+    21300010: Boss_ATK__5
+    21300012: Boss_ATK__6
+    21300014: Boss_ATK__7
+    21300016: Boss_ATK__8
+    21300018: Boss_ATK__9
+    21300020: Boss_ATK__10
+    21300022: Boss_ATK__11
+    21300024: Boss_ATK__12
+    21300026: Boss_ATK__13
+    21300028: Boss_ATK__14
+    21300030: Boss_ATK__15
+    21300032: Boss_ATK__16
+    21300034: Boss_ATK__17
+    21300036: Boss_ATK__20
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss_ATK__0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 683
+        width: 356
+        height: 462
+      alignment: 9
+      pivot: {x: 0.46001953, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_ATK__1
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 681
+        width: 379
+        height: 462
+      alignment: 9
+      pivot: {x: 0.48122275, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_ATK__2
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 676
+        width: 364
+        height: 462
+      alignment: 9
+      pivot: {x: 0.46741527, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_ATK__4
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 676
+        width: 362
+        height: 469
+      alignment: 9
+      pivot: {x: 0.46068224, y: -0.0025289897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_ATK__6
+      rect:
+        serializedVersion: 2
+        x: 1762
+        y: 676
+        width: 359
+        height: 477
+      alignment: 9
+      pivot: {x: 0.45374623, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_ATK__7
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 676
+        width: 361
+        height: 482
+      alignment: 9
+      pivot: {x: 0.44743133, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_ATK__8
+      rect:
+        serializedVersion: 2
+        x: 2642
+        y: 666
+        width: 366
+        height: 484
+      alignment: 9
+      pivot: {x: 0.45787174, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_ATK__9
+      rect:
+        serializedVersion: 2
+        x: 3076
+        y: 661
+        width: 366
+        height: 484
+      alignment: 9
+      pivot: {x: 0.46111226, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_ATK__10
+      rect:
+        serializedVersion: 2
+        x: 3508
+        y: 663
+        width: 369
+        height: 482
+      alignment: 9
+      pivot: {x: 0.47750002, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_ATK__11
+      rect:
+        serializedVersion: 2
+        x: 3950
+        y: 671
+        width: 508
+        height: 462
+      alignment: 9
+      pivot: {x: 0.49205965, y: -0.00000013211073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_ATK__12
+      rect:
+        serializedVersion: 2
+        x: 4501
+        y: 673
+        width: 507
+        height: 460
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_ATK__13
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1072
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_ATK__14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 115
+        width: 503
+        height: 457
+      alignment: 9
+      pivot: {x: 0.4789052, y: 0.000000083472585}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_ATK__15
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 113
+        width: 503
+        height: 464
+      alignment: 9
+      pivot: {x: 0.46944857, y: 0.00000009865597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_ATK__16
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 128
+        width: 532
+        height: 464
+      alignment: 9
+      pivot: {x: 0.47069898, y: 0.0011823588}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_ATK__17
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 125
+        width: 434
+        height: 470
+      alignment: 9
+      pivot: {x: 0.47302273, y: 0.0049821245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_ATK__20
+      rect:
+        serializedVersion: 2
+        x: 2261
+        y: 135
+        width: 381
+        height: 462
+      alignment: 9
+      pivot: {x: 0.4628163, y: 0.000000033027682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

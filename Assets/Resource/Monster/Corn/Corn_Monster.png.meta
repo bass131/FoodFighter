@@ -1,0 +1,478 @@
+fileFormatVersion: 2
+guid: 0301f82c5a883ed4da1214d1265f6693
+timeCreated: 1509197191
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Corn_Die_1
+    21300002: Corn_Die_2
+    21300004: Corn_Die_3
+    21300006: Corn_Die_4
+    21300008: Corn_Die_5
+    21300010: Corn_Die_6
+    21300012: Corn_Die_7
+    21300014: Corn_Die_8
+    21300016: Corn_Die_9
+    21300018: Corn_Monster_0
+    21300020: Corn_Monster_1
+    21300022: Corn_Monster_2
+    21300024: Corn_Monster_3
+    21300026: Corn_Monster_4
+    21300028: Corn_Monster_5
+    21300030: Corn_Monster_6
+    21300032: Corn_Monster_7
+    21300034: Corn_Monster_8
+    21300036: Corn_Monster_9
+    21300038: Corn_Monster_10
+    21300040: Corn_Monster_11
+    21300042: Corn_Monster_12
+    21300044: Corn_Monster_13
+    21300046: Corn_Monster_14
+    21300048: Corn_Monster_15
+    21300050: Corn_Monster_16
+    21300052: Corn_Monster_17
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Corn_Die_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 178
+        width: 66
+        height: 145
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Die_2
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 178
+        width: 121
+        height: 145
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Die_3
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 180
+        width: 150
+        height: 145
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Die_4
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 179
+        width: 167
+        height: 145
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Die_5
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 180
+        width: 139
+        height: 145
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Die_6
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 180
+        width: 139
+        height: 145
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Die_7
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 180
+        width: 122
+        height: 145
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Die_8
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 180
+        width: 121
+        height: 145
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Die_9
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 180
+        width: 123
+        height: 145
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Monster_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 522
+        width: 64
+        height: 136
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Monster_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 522
+        width: 64
+        height: 148
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Monster_2
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 522
+        width: 63
+        height: 153
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Monster_3
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 522
+        width: 62
+        height: 162
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Monster_4
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 522
+        width: 70
+        height: 174
+      alignment: 9
+      pivot: {x: 0.5640185, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Monster_5
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 522
+        width: 68
+        height: 160
+      alignment: 9
+      pivot: {x: 0.53685176, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Monster_6
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 522
+        width: 62
+        height: 151
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Monster_7
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 523
+        width: 62
+        height: 141
+      alignment: 9
+      pivot: {x: 0.5396413, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Monster_8
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 522
+        width: 62
+        height: 134
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Monster_9
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 347
+        width: 64
+        height: 132
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Monster_10
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 347
+        width: 62
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Monster_11
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 347
+        width: 109
+        height: 133
+      alignment: 9
+      pivot: {x: 0.31058916, y: 0.0022078205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Monster_12
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 351
+        width: 207
+        height: 148
+      alignment: 9
+      pivot: {x: 0.53426874, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Monster_13
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 349
+        width: 165
+        height: 123
+      alignment: 9
+      pivot: {x: 0.49005976, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Monster_14
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 356
+        width: 170
+        height: 128
+      alignment: 9
+      pivot: {x: 0.47391358, y: 0.00000023841858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Monster_15
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 356
+        width: 94
+        height: 140
+      alignment: 9
+      pivot: {x: 0.38174504, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Monster_16
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 353
+        width: 64
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Corn_Monster_17
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 353
+        width: 62
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

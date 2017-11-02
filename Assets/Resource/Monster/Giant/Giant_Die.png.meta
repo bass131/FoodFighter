@@ -1,0 +1,730 @@
+fileFormatVersion: 2
+guid: 137a642e7461d7b4cb6a91cccd9a869d
+timeCreated: 1497807663
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: giant_2_0
+    21300002: giant_2_1
+    21300004: giant_2_2
+    21300006: giant_2_3
+    21300008: giant_2_4
+    21300010: giant_2_5
+    21300012: giant_2_6
+    21300014: giant_2_7
+    21300016: giant_2_8
+    21300018: giant_2_9
+    21300020: giant_2_10
+    21300022: giant_2_11
+    21300024: giant_2_12
+    21300026: giant_2_13
+    21300028: giant_2_14
+    21300030: giant_2_15
+    21300032: giant_2_16
+    21300034: giant_2_17
+    21300036: giant_2_18
+    21300038: giant_2_28
+    21300040: giant_2_29
+    21300042: giant_2_30
+    21300044: giant_2_31
+    21300046: giant_2_32
+    21300048: giant_2_33
+    21300050: giant_2_36
+    21300052: giant_2_37
+    21300054: giant_2_38
+    21300056: giant_2_39
+    21300058: giant_2_40
+    21300060: giant_2_41
+    21300062: giant_2_42
+    21300064: giant_2_50
+    21300066: giant_2_52
+    21300068: giant_2_53
+    21300070: giant_2_54
+    21300072: giant_2_55
+    21300074: giant_2_56
+    21300076: giant_2_57
+    21300078: giant_2_58
+    21300080: giant_2_59
+    21300082: giant_2_60
+    21300084: giant_2_61
+    21300086: giant_2_62
+    21300088: giant_2_63
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: giant_2_0
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1508
+        width: 245
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_1
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1508
+        width: 246
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_2
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1508
+        width: 248
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_3
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1510
+        width: 245
+        height: 314
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_4
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 1507
+        width: 246
+        height: 317
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_5
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 1508
+        width: 246
+        height: 332
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_6
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 1510
+        width: 246
+        height: 344
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_7
+      rect:
+        serializedVersion: 2
+        x: 2501
+        y: 1510
+        width: 246
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_8
+      rect:
+        serializedVersion: 2
+        x: 2829
+        y: 1510
+        width: 246
+        height: 360
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_9
+      rect:
+        serializedVersion: 2
+        x: 3196
+        y: 1507
+        width: 246
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_10
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1055
+        width: 254
+        height: 270
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_11
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1055
+        width: 276
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_12
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1053
+        width: 328
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_13
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1128
+        width: 14
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_14
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 1050
+        width: 386
+        height: 201
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_15
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 1050
+        width: 402
+        height: 201
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_16
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 1045
+        width: 389
+        height: 201
+      alignment: 9
+      pivot: {x: 0.4858273, y: -0.009143127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_17
+      rect:
+        serializedVersion: 2
+        x: 2653
+        y: 1057
+        width: 388
+        height: 200
+      alignment: 9
+      pivot: {x: 0.49052697, y: -0.009188843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_18
+      rect:
+        serializedVersion: 2
+        x: 3161
+        y: 1046
+        width: 420
+        height: 207
+      alignment: 9
+      pivot: {x: 0.45911226, y: -0.014965703}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_28
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1016
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_29
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 1016
+        width: 5
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_30
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 1021
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_31
+      rect:
+        serializedVersion: 2
+        x: 3434
+        y: 1018
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_32
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 1011
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_33
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 697
+        width: 418
+        height: 207
+      alignment: 9
+      pivot: {x: 0.42271557, y: 0.052020527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_36
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 691
+        width: 305
+        height: 202
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_37
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 691
+        width: 306
+        height: 200
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_38
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 690
+        width: 305
+        height: 173
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_39
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 691
+        width: 307
+        height: 186
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_40
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 693
+        width: 306
+        height: 196
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_41
+      rect:
+        serializedVersion: 2
+        x: 2767
+        y: 695
+        width: 306
+        height: 194
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_42
+      rect:
+        serializedVersion: 2
+        x: 3289
+        y: 693
+        width: 307
+        height: 195
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_50
+      rect:
+        serializedVersion: 2
+        x: 2645
+        y: 673
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_52
+      rect:
+        serializedVersion: 2
+        x: 2194
+        y: 666
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_53
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 657
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_54
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 656
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_55
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 659
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_56
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 263
+        width: 112
+        height: 193
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_57
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 261
+        width: 112
+        height: 193
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_58
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 251
+        width: 114
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_59
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 254
+        width: 114
+        height: 193
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_60
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 252
+        width: 113
+        height: 193
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_61
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 254
+        width: 113
+        height: 193
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_62
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 256
+        width: 114
+        height: 193
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: giant_2_63
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 259
+        width: 114
+        height: 193
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

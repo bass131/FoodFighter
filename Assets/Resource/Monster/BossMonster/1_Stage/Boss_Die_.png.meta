@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: bc940e01340aea4449b661adf15ecf3e
+timeCreated: 1509524279
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Boss_Die__0
+    21300002: Boss_Die__1
+    21300004: Boss_Die__2
+    21300006: Boss_Die__3
+    21300008: Boss_Die__4
+    21300010: Boss_Die__5
+    21300012: Boss_Die__6
+    21300014: Boss_Die__7
+    21300016: Boss_Die__8
+    21300018: Boss_Die__9
+    21300020: Boss_Die__10
+    21300022: Boss_Die__11
+    21300024: Boss_Die__12
+    21300026: Boss_Die__13
+    21300028: Boss_Die__14
+    21300030: Boss_Die__15
+    21300032: Boss_Die__16
+    21300034: Boss_Die__17
+    21300036: Boss_Die__18
+    21300038: Boss_Die__19
+    21300040: Boss_Die__20
+    21300042: Boss_Die__21
+    21300044: Boss_Die__22
+    21300046: Boss_Die__23
+    21300048: Boss_Die__24
+    21300050: Boss_Die__25
+    21300052: Boss_Die__26
+    21300054: Boss_Die__27
+    21300056: Boss_Die__28
+    21300058: Boss_Die__29
+    21300060: Boss_Die__30
+    21300062: Boss_Die__31
+    21300064: Boss_Die__32
+    21300066: Boss_Die__33
+    21300068: Boss_Die__34
+    21300070: Boss_Die__35
+    21300072: Boss_Die__36
+    21300074: Boss_Die__37
+    21300076: Boss_Die__38
+    21300078: Boss_Die__39
+    21300080: Boss_Die__40
+    21300082: Boss_Die__41
+    21300084: Boss_Die__42
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss_Die__0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1817
+        width: 377
+        height: 459
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__1
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1806
+        width: 463
+        height: 468
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__2
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 1790
+        width: 468
+        height: 470
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__3
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 1786
+        width: 464
+        height: 470
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__4
+      rect:
+        serializedVersion: 2
+        x: 2147
+        y: 1773
+        width: 444
+        height: 465
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__5
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 1776
+        width: 411
+        height: 466
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__6
+      rect:
+        serializedVersion: 2
+        x: 3117
+        y: 1782
+        width: 430
+        height: 468
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__7
+      rect:
+        serializedVersion: 2
+        x: 3575
+        y: 1973
+        width: 10
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__8
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 1782
+        width: 445
+        height: 466
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__9
+      rect:
+        serializedVersion: 2
+        x: 3107
+        y: 1967
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__10
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1810
+        width: 4
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__11
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1483
+        width: 10
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__12
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1268
+        width: 427
+        height: 464
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__13
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1266
+        width: 401
+        height: 468
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__14
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1268
+        width: 401
+        height: 462
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__15
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 1257
+        width: 396
+        height: 467
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__16
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 1268
+        width: 385
+        height: 468
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__17
+      rect:
+        serializedVersion: 2
+        x: 2696
+        y: 1260
+        width: 379
+        height: 468
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__18
+      rect:
+        serializedVersion: 2
+        x: 3172
+        y: 1270
+        width: 379
+        height: 468
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__19
+      rect:
+        serializedVersion: 2
+        x: 3634
+        y: 1269
+        width: 378
+        height: 467
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__20
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1477
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1455
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__22
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1263
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__23
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 715
+        width: 379
+        height: 464
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__24
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 707
+        width: 378
+        height: 464
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__25
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 717
+        width: 405
+        height: 468
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__26
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 688
+        width: 506
+        height: 497
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__27
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 671
+        width: 504
+        height: 506
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__28
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 737
+        width: 342
+        height: 333
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__29
+      rect:
+        serializedVersion: 2
+        x: 3338
+        y: 728
+        width: 341
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__30
+      rect:
+        serializedVersion: 2
+        x: 3859
+        y: 852
+        width: 94
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__31
+      rect:
+        serializedVersion: 2
+        x: 2873
+        y: 798
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__32
+      rect:
+        serializedVersion: 2
+        x: 3030
+        y: 677
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__33
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 315
+        width: 68
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__34
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 334
+        width: 60
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__35
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 340
+        width: 58
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__36
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 336
+        width: 47
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__37
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 332
+        width: 46
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__38
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 319
+        width: 44
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__39
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 320
+        width: 44
+        height: 129
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__40
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 319
+        width: 51
+        height: 146
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__41
+      rect:
+        serializedVersion: 2
+        x: 3503
+        y: 340
+        width: 47
+        height: 104
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Die__42
+      rect:
+        serializedVersion: 2
+        x: 3883
+        y: 347
+        width: 38
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
