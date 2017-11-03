@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4511724183927942}
   - component: {fileID: 212543494491029506}
   m_Layer: 0
-  m_Name: "\uCCB4\uB825\uBC14 1"
+  m_Name: Hp_bar_Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81,4 +81,3 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
