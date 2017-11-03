@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 222042744736233216}
   - component: {fileID: 114389665163183652}
   m_Layer: 5
-  m_Name: "\uD558\uD2B8"
+  m_Name: Heart_Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
