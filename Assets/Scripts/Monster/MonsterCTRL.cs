@@ -158,16 +158,7 @@ public class MonsterCTRL : MonoBehaviour {
         {
             StartCoroutine("HitEffect"); // 히트 이펙트 코루틴 시작.
             --HP; // 체력 감소.
-            Count++; // 카운트 증가.
-            Scores.HitScore += 10; // 점수 클래스의 타격점수 10점 증가.
-            attackSeAudio.Play(); // 총탄 발사 오디오 출력.
-            
         }
-        /*else if((col.gameObject.tag == "Enemy" || col.gameObject.tag == "Enemy_Ice")) // 만약 태그가 "적군" 일 경우.
-        {
-                rig.constraints = RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezeRotation;
-             회전과 X,Y 움직임에 대한 제한 설정. 
-        }*/
     }
 
    /* void OnCollisionExit2D(Collision2D col) // 충돌판정 중지시.

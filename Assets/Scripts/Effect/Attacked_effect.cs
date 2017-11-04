@@ -11,11 +11,11 @@ public class Attacked_effect : MonoBehaviour {
     void Start () {
         bulletVelo = GameObject.FindWithTag("Bullet").GetComponent<Bullet>();
         imageFlipX();
-        Destroy(gameObject, 2.0f);
     }
 	
 	// Update is called once per frame
 	void Update () {
+        Destroy(gameObject, 1.0f);
     }
 
     void imageFlipX()
