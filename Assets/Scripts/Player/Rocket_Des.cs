@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Rocket_Des : MonoBehaviour {
 
-    private PlayerCRTL Player;
+    private Player Player;
 
 	// Use this for initialization
 	void Start () {
-        Player = GameObject.FindWithTag("Player").GetComponent<PlayerCRTL>();
+        Player = GameObject.FindWithTag("Player").GetComponent<Player>();
     }
 	
 	// Update is called once per frame
@@ -18,7 +18,7 @@ public class Rocket_Des : MonoBehaviour {
 
     void Die()
     {
-        if (Player.Hp <= 0)
+        if (Player.HP <= 0)
         {
             Destroy(gameObject);
         }

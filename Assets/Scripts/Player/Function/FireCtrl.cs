@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class FireCtrl : MonoBehaviour {
-
-    
+public class FireCtrl : MonoBehaviour
+{
 	public AudioClip attackSeClip;
 	AudioSource attackSeAudio;
 

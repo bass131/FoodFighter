@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityStandardAssets.CrossPlatformInput;
 
-public class PlayerAnimation_Up: MonoBehaviour {
+public class PlayerAnimation_Up: MonoBehaviour
+{
 
 	public Animator animator;
 
@@ -11,7 +13,10 @@ public class PlayerAnimation_Up: MonoBehaviour {
 
     private float NextAttack = 0.0f;
 
-    private PlayerCRTL Player;
+    private Player Player;
+
+    private RectTransform JoyStick;
+
     //public SpriteRenderer spriteRenderer;
 
     // Use this for initialization
@@ -19,7 +24,8 @@ public class PlayerAnimation_Up: MonoBehaviour {
 	{
         animator = GetComponent<Animator>();
        // spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
-        Player = GameObject.FindWithTag("Player").GetComponent<PlayerCRTL>();
+        Player = GameObject.FindWithTag("Player").GetComponent<Player>();
+        JoyStick = GameObject.FindWithTag("JoyStick").GetComponent<RectTransform>();
     }
 
     // Update is called once per frame
@@ -32,9 +38,9 @@ public class PlayerAnimation_Up: MonoBehaviour {
 
     void Move_Animation()
     {
-        float x = Input.GetAxis("Horizontal");
+        float x = CrossPlatformInputManager.GetAxis("Horizontal");
 
-        if (x > 0.1)
+        if (x > 0.1 && JoyStick.position.y < 175 && JoyStick.position.y > 60)
         {
             animator.SetBool("isWalk_Up", true);
             animator.SetBool("isFire_Up", false);
@@ -45,7 +51,7 @@ public class PlayerAnimation_Up: MonoBehaviour {
             }
 
         }
-        else if (x < -0.1)
+        else if (x < -0.1 && JoyStick.position.y < 175 && JoyStick.position.y > 60)
         {
             animator.SetBool("isWalk_Up", true);
             animator.SetBool("isFire_Up", false);
@@ -71,7 +77,7 @@ public class PlayerAnimation_Up: MonoBehaviour {
 
     void Die()
     {
-        if(Player.Hp <= 0)
+        if(Player.HP <= 0)
         {
             Destroy(gameObject);
         }

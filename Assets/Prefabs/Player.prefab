@@ -180,13 +180,13 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4968364012735700}
-  - component: {fileID: 114599091417893844}
   - component: {fileID: 50114726755206734}
   - component: {fileID: 114240021971586802}
   - component: {fileID: 114742406418886448}
   - component: {fileID: 114668767089135062}
   - component: {fileID: 61556043724823004}
   - component: {fileID: 58575016343176270}
+  - component: {fileID: 114486390033427120}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -396,9 +396,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.03211212, y: 1.0683784}
+  m_Offset: {x: 0, y: 1}
   serializedVersion: 2
-  m_Radius: 1.3739777
+  m_Radius: 4
 --- !u!61 &61556043724823004
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -618,6 +618,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 95062933146433760}
+--- !u!114 &114486390033427120
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1753336300541862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a79360085a0744aadba0e81e6b523d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SPEED: 5
+  HP: 10
+  ImageVec: 1
+  rigid: {fileID: 50114726755206734}
+  Sprites_Up: {fileID: 0}
+  Sprites_Down: {fileID: 212577362180259698}
+  isEnd: 0
+  attackedSeClip: {fileID: 0}
+  itemSeClip: {fileID: 0}
+  hpmask: {fileID: 0}
+  heartmask:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  Damage: 1
+  maxHP: 10
+  maxheart: 3
+  hearthp: 3
 --- !u!114 &114588361587992886
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -630,34 +659,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 95612754446325284}
---- !u!114 &114599091417893844
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1753336300541862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b386a1e7c8a5b3f4bafed4f5b103aca2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  Jump_Power: 5
-  ImageVec: 1
-  Hp: 5
-  rigid: {fileID: 50114726755206734}
-  attackedVelocity: {x: 0, y: 0, z: 0}
-  Sprites_Up: {fileID: 0}
-  Sprites_Down: {fileID: 0}
-  isEnd: 0
-  attackedSeClip: {fileID: 8300000, guid: 5527c633bfde1974894e5406a73c7970, type: 3}
-  itemSeClip: {fileID: 8300000, guid: 0b335c04ea7a42344adf90c167069e01, type: 3}
-  hpmask: {fileID: 0}
-  heartmask: []
-  damge: 1
-  maxHP: 10
-  maxheart: 3
-  hearthp: 3
 --- !u!114 &114614515505102448
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -800,8 +801,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1518423603
-  m_SortingLayer: 7
+  m_SortingLayerID: 558910637
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300002, guid: f3b029a90d32e1e4cb835fc8b72eb240, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -811,6 +812,7 @@ SpriteRenderer:
   m_Size: {x: 0.4, y: 0.59}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
 --- !u!212 &212239315766419554
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -840,8 +842,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 999835619
-  m_SortingLayer: 8
+  m_SortingLayerID: 1518423603
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300100, guid: c28701064d4341c40b80ba92d9f3b41c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -851,6 +853,7 @@ SpriteRenderer:
   m_Size: {x: 0.5, y: 0.47}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
 --- !u!212 &212312351405943180
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -891,6 +894,7 @@ SpriteRenderer:
   m_Size: {x: 0.29, y: 0.3}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
 --- !u!212 &212577362180259698
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -931,6 +935,7 @@ SpriteRenderer:
   m_Size: {x: 0.46, y: 0.37}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
 --- !u!212 &212592988693024296
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -960,8 +965,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1518423603
-  m_SortingLayer: 7
+  m_SortingLayerID: 558910637
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300024, guid: f3b029a90d32e1e4cb835fc8b72eb240, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
@@ -971,6 +976,7 @@ SpriteRenderer:
   m_Size: {x: 0.41, y: 0.28}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
 --- !u!212 &212638897993088626
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -1011,6 +1017,7 @@ SpriteRenderer:
   m_Size: {x: 0.65, y: 0.2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
 --- !u!212 &212955235428221770
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -1040,8 +1047,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1518423603
-  m_SortingLayer: 7
+  m_SortingLayerID: 999835619
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300006, guid: b00d47911e22cac4b825fc6763e744c3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1051,6 +1058,7 @@ SpriteRenderer:
   m_Size: {x: 0.24, y: 0.08}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
 --- !u!212 &212981355528678270
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -1080,8 +1088,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 999835619
-  m_SortingLayer: 8
+  m_SortingLayerID: 259437755
+  m_SortingLayer: 9
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300016, guid: 916de858c0d434d4685b75dbecdb88b7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1091,3 +1099,4 @@ SpriteRenderer:
   m_Size: {x: 0.48, y: 0.24}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1

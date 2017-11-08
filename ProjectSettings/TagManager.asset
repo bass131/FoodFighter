@@ -22,6 +22,8 @@ TagManager:
   - Player_Down
   - Item
   - ATK
+  - Fire
+  - JoyStick
   layers:
   - Default
   - TransparentFX
