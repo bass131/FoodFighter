@@ -28,6 +28,8 @@ public class Player :MonoBehaviour, Actors {
     private PlayerAnimation_Up Player_Up; // 플레이어 상체.
     private PlayerAnimation_Bottom Player_Down; // 플레이어 하체.
 
+    private Monster Monsters; // 몬스터 클래스.
+
     public SpriteRenderer Sprites_Up; // 이미지 상체 스프라이트 렌더러.
     public SpriteRenderer Sprites_Down; // 이미지 하체 스프라이트 렌더러.
 
@@ -89,7 +91,10 @@ public class Player :MonoBehaviour, Actors {
 
         JoyStick = GameObject.FindWithTag("JoyStick").GetComponent<RectTransform>();
 
+        Monsters = GameObject.FindWithTag("Enemy").GetComponent<Monster>();
+
         //================================================================//
+
         hpmaskRect = hpmask.GetComponent<RectTransform>(); // 체력바 스프라이트 초기화.
         maxHpBarWidth = hpmaskRect.sizeDelta.x; // 체력바 스프라이트 최대 가로 길이 초기화.
         HP = maxHP; // 최대 체력 = maxHP 변수의 값.
@@ -200,6 +205,32 @@ public class Player :MonoBehaviour, Actors {
                 Time.timeScale = 1;
                 SceneManager.LoadScene("Stage");
             }
+        }
+    }
+
+    public void Hit(int atk)
+    {
+        Debug.Log("GetDMG");
+        HP = HP - atk; // 체력 소모.
+        attackedSeAudio.Play(); // 피격 사운드 출력.
+        Player_Up.animator.SetBool("attacked", true); // 렌더 변경.
+        Player_Down.animator.SetBool("attacked", true); // 렌더 변경.
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        Debug.Log("1111111111111 : " + col);
+        Debug.Log("2222222222222 : " + col.gameObject.GetComponent<Monster>());
+        Monster mon = col.gameObject.GetComponent<Monster>(); // 몬스터의 컴포넌트를 가져옴.
+
+        if (col.gameObject.tag == "Enemy" && mon.isAttack == true)
+        {         
+        }
+        else
+        {
+            Player_Up.animator.SetBool("attacked", false); // 렌더 변경.
+            Player_Down.animator.SetBool("attacked", false); // 렌더 변경.
         }
     }
 }

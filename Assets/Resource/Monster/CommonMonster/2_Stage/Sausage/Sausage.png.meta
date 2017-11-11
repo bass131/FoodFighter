@@ -1,0 +1,380 @@
+fileFormatVersion: 2
+guid: 2fc27592dad23614db58e78bb89a6945
+timeCreated: 1510226630
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sausage_Move_01
+    21300002: Sausage_Move_02
+    21300004: Sausage_Move_03
+    21300006: Sausage_Move_04
+    21300008: Sausage_ATK_01
+    21300010: Sausage_ATK_02
+    21300012: Sausage_ATK_03
+    21300014: Sausage_ATK_04
+    21300016: Sausage_DIe_01
+    21300018: Sausage_DIe_02
+    21300020: Sausage_DIe_03
+    21300022: Sausage_DIe_04
+    21300024: Sausage_DIe_05
+    21300026: Sausage_DIe_06
+    21300028: Sausage_DIe_07
+    21300030: Sausage_DIe_08
+    21300032: Sausage_DIe_09
+    21300034: Sausage_DIe_10
+    21300036: Sausage_DIe_11
+    21300038: Sausage_DIe_12
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sausage_Move_01
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1178
+        width: 106
+        height: 197
+      alignment: 9
+      pivot: {x: 0.5435806, y: 0.027356762}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sausage_Move_02
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1177
+        width: 112
+        height: 199
+      alignment: 9
+      pivot: {x: 0.56186897, y: 0.023213603}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sausage_Move_03
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1178
+        width: 123
+        height: 198
+      alignment: 9
+      pivot: {x: 0.5, y: 0.019441854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sausage_Move_04
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1176
+        width: 99
+        height: 200
+      alignment: 9
+      pivot: {x: 0.58020264, y: 0.02043396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sausage_ATK_01
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 895
+        width: 106
+        height: 199
+      alignment: 9
+      pivot: {x: 0.54164165, y: 0.029574446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sausage_ATK_02
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 893
+        width: 101
+        height: 191
+      alignment: 9
+      pivot: {x: 0.47361258, y: 0.032558583}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sausage_ATK_03
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 896
+        width: 146
+        height: 187
+      alignment: 9
+      pivot: {x: 0.3417952, y: 0.019002823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sausage_ATK_04
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 896
+        width: 101
+        height: 187
+      alignment: 9
+      pivot: {x: 0.50879574, y: 0.019002823}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sausage_DIe_01
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 604
+        width: 107
+        height: 210
+      alignment: 9
+      pivot: {x: 0.66156226, y: 0.020580182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sausage_DIe_02
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 604
+        width: 121
+        height: 225
+      alignment: 9
+      pivot: {x: 0.7195967, y: 0.022962783}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sausage_DIe_03
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 604
+        width: 126
+        height: 203
+      alignment: 9
+      pivot: {x: 0.7588249, y: 0.03076262}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sausage_DIe_04
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 602
+        width: 120
+        height: 222
+      alignment: 9
+      pivot: {x: 0.7081136, y: 0.019851822}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sausage_DIe_05
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 599
+        width: 107
+        height: 221
+      alignment: 9
+      pivot: {x: 0.65486157, y: 0.022052195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sausage_DIe_06
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 314
+        width: 104
+        height: 205
+      alignment: 9
+      pivot: {x: 0.5339502, y: 0.03444705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sausage_DIe_07
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 314
+        width: 118
+        height: 205
+      alignment: 9
+      pivot: {x: 0.48503888, y: 0.025835289}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sausage_DIe_08
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 310
+        width: 112
+        height: 205
+      alignment: 9
+      pivot: {x: 0.5729689, y: 0.036241487}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sausage_DIe_09
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 310
+        width: 112
+        height: 212
+      alignment: 9
+      pivot: {x: 0.5686542, y: 0.024180286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sausage_DIe_10
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 305
+        width: 125
+        height: 224
+      alignment: 9
+      pivot: {x: 0.6156431, y: 0.030368533}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sausage_DIe_11
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 52
+        width: 122
+        height: 212
+      alignment: 9
+      pivot: {x: 0.60569215, y: 0.03041145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sausage_DIe_12
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 48
+        width: 133
+        height: 205
+      alignment: 9
+      pivot: {x: 0.64542615, y: 0.03144991}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

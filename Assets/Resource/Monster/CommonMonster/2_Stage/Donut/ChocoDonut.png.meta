@@ -1,0 +1,408 @@
+fileFormatVersion: 2
+guid: 434d19f424496084cb12dfaa26989547
+timeCreated: 1510230765
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ChocoDonut_ATK_01
+    21300002: ChocoDonut_ATK_02
+    21300004: ChocoDonut_ATK_03
+    21300006: ChocoDonut_ATK_04
+    21300008: ChocoDonut_ATK_05
+    21300010: ChocoDonut_ATK_06
+    21300012: ChocoDonut_ATK_07
+    21300014: ChocoDonut_ATK_08
+    21300016: ChocoDonut_ATK_09
+    21300018: ChocoDonut_ATK_10
+    21300020: ChocoDonut_ATK_11
+    21300022: ChocoDonut_ATK_12
+    21300024: ChocoDonut_ATK_13
+    21300026: ChocoDonut_ATK_14
+    21300028: ChocoDonut_Move_01
+    21300030: ChocoDonut_Move_04
+    21300032: ChocoDonut_Move_05
+    21300034: ChocoDonut_Move_06
+    21300036: ChocoDonut_Move_02
+    21300038: ChocoDonut_Move_03
+    21300040: ChocoDonut_Move_07
+    21300042: ChocoDonut_Move_08
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChocoDonut_ATK_01
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 142
+        width: 37
+        height: 69
+      alignment: 9
+      pivot: {x: 0.49999943, y: 0.01570063}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChocoDonut_ATK_02
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 141
+        width: 54
+        height: 69
+      alignment: 9
+      pivot: {x: 0.50668705, y: 0.020934174}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChocoDonut_ATK_03
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 141
+        width: 64
+        height: 69
+      alignment: 9
+      pivot: {x: 0.49999976, y: 0.025906991}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChocoDonut_ATK_04
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 141
+        width: 65
+        height: 69
+      alignment: 9
+      pivot: {x: 0.49083275, y: 0.017271401}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChocoDonut_ATK_05
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 140
+        width: 78
+        height: 70
+      alignment: 9
+      pivot: {x: 0.43124664, y: 0.025536673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChocoDonut_ATK_06
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 141
+        width: 65
+        height: 70
+      alignment: 9
+      pivot: {x: 0.4908325, y: 0.017024666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChocoDonut_ATK_07
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 141
+        width: 83
+        height: 67
+      alignment: 9
+      pivot: {x: 0.48944938, y: 0.026680106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChocoDonut_ATK_08
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 142
+        width: 101
+        height: 68
+      alignment: 9
+      pivot: {x: 0.505837, y: 0.010666342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChocoDonut_ATK_09
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 142
+        width: 170
+        height: 77
+      alignment: 9
+      pivot: {x: 0.6187238, y: 0.004415339}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChocoDonut_ATK_10
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 141
+        width: 90
+        height: 74
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChocoDonut_ATK_11
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 139
+        width: 50
+        height: 86
+      alignment: 9
+      pivot: {x: 0.23891723, y: 0.00000017742778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChocoDonut_ATK_12
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 99
+        width: 91
+        height: 127
+      alignment: 9
+      pivot: {x: 0.24087961, y: -0.0010861374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChocoDonut_ATK_13
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 103
+        width: 75
+        height: 105
+      alignment: 9
+      pivot: {x: 0.35179526, y: 0.011502002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChocoDonut_ATK_14
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 142
+        width: 64
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5, y: -0.018876228}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChocoDonut_Move_01
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 38
+        width: 37
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5185826, y: 0.012365341}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChocoDonut_Move_04
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 18
+        width: 44
+        height: 116
+      alignment: 9
+      pivot: {x: 0.51152873, y: 0.039357875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChocoDonut_Move_05
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 15
+        width: 38
+        height: 119
+      alignment: 9
+      pivot: {x: 0.5266989, y: 0.04262847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChocoDonut_Move_06
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 13
+        width: 38
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5, y: 0.034391806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChocoDonut_Move_02
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 38
+        width: 43
+        height: 64
+      alignment: 9
+      pivot: {x: 0.56625634, y: 0.024731219}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChocoDonut_Move_03
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 40
+        width: 42
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5376856, y: 0.02776832}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChocoDonut_Move_07
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 14
+        width: 37
+        height: 61
+      alignment: 9
+      pivot: {x: 0.47257954, y: 0.024947995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ChocoDonut_Move_08
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 15
+        width: 43
+        height: 64
+      alignment: 9
+      pivot: {x: 0.53539187, y: 0.023778677}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

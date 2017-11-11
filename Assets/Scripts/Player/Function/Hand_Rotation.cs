@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
+
 public class Hand_Rotation : MonoBehaviour {
 
     public Player Player; // 플레이어.
@@ -20,7 +21,6 @@ public class Hand_Rotation : MonoBehaviour {
     void Start () {
         Player = GameObject.FindWithTag("Player").GetComponent<Player>();
         JoyStick = GameObject.FindWithTag("JoyStick").GetComponent<RectTransform>();
-		
 	}
 	
 	// Update is called once per frame
@@ -31,16 +31,16 @@ public class Hand_Rotation : MonoBehaviour {
     void H_Rotate()
     {
         None_P.eulerAngles = new Vector3(0, 0, 0);
-        z_raw_2.eulerAngles = new Vector3(0, 0, 45);
-        z_raw_4.eulerAngles = new Vector3(0, 0, -45);
+        z_raw_1.eulerAngles = new Vector3(0, 0, 40);
+        z_raw_2.eulerAngles = new Vector3(0, 0, -40);
 
         if (Player.ImageVec == 1)
         { 
-            if (CrossPlatformInputManager.GetAxisRaw("Vertical") < 0 && JoyStick.position.y < 70)
+            if (CrossPlatformInputManager.GetAxisRaw("Vertical") > 0 && JoyStick.position.y > 160 )
             {
-                transform.rotation = Quaternion.Slerp(transform.rotation, z_raw_4, Time.deltaTime * 5.0f);
+                transform.rotation = Quaternion.Slerp(transform.rotation, z_raw_1, Time.deltaTime * 5.0f);
             }
-            else if (CrossPlatformInputManager.GetAxisRaw("Vertical") > 0 && JoyStick.position.y < 180)
+            else if(CrossPlatformInputManager.GetAxisRaw("Vertical") < 0 && JoyStick.position.y < 76 )
             {
                 transform.rotation = Quaternion.Slerp(transform.rotation, z_raw_2, Time.deltaTime * 5.0f);
             }
@@ -48,22 +48,52 @@ public class Hand_Rotation : MonoBehaviour {
             {
                 transform.rotation = Quaternion.Slerp(transform.rotation, None_P, Time.deltaTime * 5.0f);
             }
+          
 
         }
         else if(Player.ImageVec == -1)
         {
-            if (CrossPlatformInputManager.GetAxisRaw("Vertical") < 0 && JoyStick.position.z < 180)
+            if (CrossPlatformInputManager.GetAxisRaw("Vertical") > 0  && JoyStick.position.y > 160)
             {
                 transform.rotation = Quaternion.Slerp(transform.rotation, z_raw_2, Time.deltaTime * 5.0f);
             }
-            else if (CrossPlatformInputManager.GetAxisRaw("Vertical") > 0 && JoyStick.position.z < 70)
+            else if (CrossPlatformInputManager.GetAxisRaw("Vertical") < 0 && JoyStick.position.y < 76)
             {
-                transform.rotation = Quaternion.Slerp(transform.rotation, z_raw_4, Time.deltaTime * 5.0f);
+                transform.rotation = Quaternion.Slerp(transform.rotation, z_raw_1, Time.deltaTime * 5.0f);
             }
-            else 
+            else
             {
                 transform.rotation = Quaternion.Slerp(transform.rotation, None_P, Time.deltaTime * 5.0f);
             }
         }
     }
 }
+
+
+/*if (CrossPlatformInputManager.GetAxisRaw("Vertical") < 0 && JoyStick.position.y< 70)
+            {
+                transform.rotation = Quaternion.Slerp(transform.rotation, z_raw_4, Time.deltaTime* 5.0f);
+            }
+            else if (CrossPlatformInputManager.GetAxisRaw("Vertical") > 0 && JoyStick.position.y< 180)
+            {
+                transform.rotation = Quaternion.Slerp(transform.rotation, z_raw_2, Time.deltaTime* 5.0f);
+            }
+            else
+            {
+                transform.rotation = Quaternion.Slerp(transform.rotation, None_P, Time.deltaTime* 5.0f);
+            }
+
+
+      if (CrossPlatformInputManager.GetAxisRaw("Vertical") < 0 && JoyStick.position.z< 180)
+            {
+                transform.rotation = Quaternion.Slerp(transform.rotation, z_raw_2, Time.deltaTime* 5.0f);
+            }
+            else if (CrossPlatformInputManager.GetAxisRaw("Vertical") > 0 && JoyStick.position.z< 70)
+            {
+                transform.rotation = Quaternion.Slerp(transform.rotation, z_raw_4, Time.deltaTime* 5.0f);
+            }
+            else 
+            {
+                transform.rotation = Quaternion.Slerp(transform.rotation, None_P, Time.deltaTime* 5.0f);
+            }
+            */

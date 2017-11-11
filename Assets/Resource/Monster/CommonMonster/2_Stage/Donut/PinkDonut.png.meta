@@ -1,0 +1,422 @@
+fileFormatVersion: 2
+guid: be5e014cc1da52840bdd8c058856ce26
+timeCreated: 1510227604
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PinkDonut_ATK_01
+    21300002: PinkDonut_ATK_02
+    21300004: PinkDonut_ATK_03
+    21300006: PinkDonut_ATK_04
+    21300008: PinkDonut_ATK_05
+    21300010: PinkDonut_ATK_06
+    21300012: PinkDonut_ATK_07
+    21300014: PinkDonut_ATK_08
+    21300016: PinkDonut_ATK_09
+    21300018: PinkDonut_ATK_10
+    21300020: PinkDonut_ATK_11
+    21300022: PinkDonut_ATK_12
+    21300024: PinkDonut_ATK_13
+    21300026: PinkDonut_ATK_14
+    21300028: PinkDonut_Move_01
+    21300030: PinkDonut_Move_02
+    21300032: PinkDonut_Move_03
+    21300034: PinkDonut_Move_04
+    21300036: PinkDonut_Move_05
+    21300038: PinkDonut_Move_06
+    21300040: PinkDonut_Move_07
+    21300042: PinkDonut_Move_08
+    21300044: PinkDonut_Move_09
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PinkDonut_ATK_01
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 141
+        width: 37
+        height: 69
+      alignment: 9
+      pivot: {x: 0.50000054, y: 0.024509374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PinkDonut_ATK_02
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 141
+        width: 54
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5, y: 0.024509154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PinkDonut_ATK_03
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 141
+        width: 64
+        height: 69
+      alignment: 9
+      pivot: {x: 0.50660586, y: 0.024509154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PinkDonut_ATK_04
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 141
+        width: 65
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5, y: 0.024509154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PinkDonut_ATK_05
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 142
+        width: 78
+        height: 70
+      alignment: 9
+      pivot: {x: 0.43495688, y: 0.024159024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PinkDonut_ATK_06
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 141
+        width: 65
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5, y: 0.030198669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PinkDonut_ATK_07
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 141
+        width: 83
+        height: 67
+      alignment: 9
+      pivot: {x: 0.4235939, y: 0.037861384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PinkDonut_ATK_08
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 141
+        width: 65
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5, y: 0.030198669}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PinkDonut_ATK_09
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 142
+        width: 168
+        height: 77
+      alignment: 9
+      pivot: {x: 0.20565142, y: 0.01647216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PinkDonut_ATK_10
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 142
+        width: 89
+        height: 73
+      alignment: 9
+      pivot: {x: 0.3764909, y: 0.01698345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PinkDonut_ATK_11
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 140
+        width: 46
+        height: 86
+      alignment: 9
+      pivot: {x: 0.46323693, y: 0.029496659}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PinkDonut_ATK_12
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 98
+        width: 80
+        height: 127
+      alignment: 9
+      pivot: {x: 0.5985573, y: 0.027937701}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PinkDonut_ATK_13
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 104
+        width: 75
+        height: 105
+      alignment: 9
+      pivot: {x: 0.57665366, y: 0.03285108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PinkDonut_ATK_14
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 141
+        width: 62
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5089855, y: 0.016663704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PinkDonut_Move_01
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 65
+        width: 37
+        height: 68
+      alignment: 9
+      pivot: {x: 0.50000083, y: 0.017610326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PinkDonut_Move_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 43
+        height: 64
+      alignment: 9
+      pivot: {x: 0.583547, y: 0.01871097}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PinkDonut_Move_03
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 42
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5855364, y: 0.02100881}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PinkDonut_Move_04
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 15
+        width: 44
+        height: 116
+      alignment: 9
+      pivot: {x: 0.51360875, y: 0.036131565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PinkDonut_Move_05
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 15
+        width: 38
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5157571, y: 0.035519164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PinkDonut_Move_06
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 31
+        width: 46
+        height: 97
+      alignment: 9
+      pivot: {x: 0.5997925, y: 0.055554263}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PinkDonut_Move_07
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 60
+        width: 37
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PinkDonut_Move_08
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 59
+        width: 43
+        height: 63
+      alignment: 9
+      pivot: {x: 0.55569816, y: 0.01900791}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PinkDonut_Move_09
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 57
+        width: 37
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

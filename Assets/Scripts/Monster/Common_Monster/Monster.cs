@@ -9,6 +9,9 @@ using UnityEngine;
      *      ㄴ 공격 루틴 (발견 - 준비 - 가격).
      * S3. 사망
      *  ㄴ 몬스터마다 다름.
+     *  
+     *  애니메이터 Bool 트리거 
+     *  ㄴ Move , Die , ATK.
 */
 
 public class Monster : MonoBehaviour {
@@ -31,8 +34,9 @@ public class Monster : MonoBehaviour {
 
     protected bool isDie; // 사망스위치.
     protected bool isTracing; // 추적스위치.
-    protected bool isAttacking; // 공격스위치.
-                   
+    protected bool isAttacking; // 공격시작 스위치.
+    public bool isAttack; //공격판정 스위치.
+
     // Use this for initialization
     void Start () {
         Anim = gameObject.GetComponent<Animator>();
@@ -88,10 +92,6 @@ public class Monster : MonoBehaviour {
         }
         transform.position += MoveVelocity * SPEED * Time.deltaTime; // 몬스터의 위치 = 움직이는 방향 x 움직이는 속도 x 실시간 프레임.
     }
-
-    protected void Monster_Attack() { } // 몬스터 공격 함수.
-
-
 
     protected void Monster_Die() // 몬스터 사망 함수.
     {
