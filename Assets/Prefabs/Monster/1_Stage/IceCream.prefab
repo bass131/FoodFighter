@@ -42,6 +42,7 @@ GameObject:
   - component: {fileID: 114097281301833916}
   - component: {fileID: 95295279793648362}
   - component: {fileID: 114983507526602108}
+  - component: {fileID: 114230293460222728}
   m_Layer: 0
   m_Name: IceCream
   m_TagString: Enemy_Ice
@@ -69,7 +70,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1034814853947612}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -74.51925, y: -22.725525, z: 0}
+  m_LocalPosition: {x: -60.48, y: -24.5, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 4733930115493204}
@@ -184,6 +185,23 @@ MonoBehaviour:
   eraseRenderer: 0
   originalLayer: 0
   originalMaterial: {fileID: 0}
+--- !u!114 &114230293460222728
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1034814853947612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f2010d4240524f4db775b21a576dc76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item_0: {fileID: 1985949272278746, guid: c32874899a47fe9439acf9b6b62aaa27, type: 2}
+  item_1: {fileID: 1466405599263304, guid: 650e3401813c1ea4f8cefe1bd4c8e8cc, type: 2}
+  item_2: {fileID: 1352853718572952, guid: 9a028bbfecfa18040a97b7ebf75bc385, type: 2}
+  item_3: {fileID: 1454494033694888, guid: d79ca03f714857b49aa1bd60dff1ecbc, type: 2}
+  item_4: {fileID: 1995308501259380, guid: 53d401352e7894749bb14c1b2e294e6a, type: 2}
+  item_5: {fileID: 1818056966214484, guid: ae3f808a90bdc0b419fa600a4bc0ebd1, type: 2}
 --- !u!114 &114983507526602108
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -201,6 +219,7 @@ MonoBehaviour:
   SCALE: 3
   traceTarget: {fileID: 0}
   Anim: {fileID: 95295279793648362}
+  isAttack: 0
 --- !u!212 &212287941629160380
 SpriteRenderer:
   m_ObjectHideFlags: 1

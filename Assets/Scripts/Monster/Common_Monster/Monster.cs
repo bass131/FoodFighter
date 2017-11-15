@@ -93,10 +93,15 @@ public class Monster : MonoBehaviour {
         transform.position += MoveVelocity * SPEED * Time.deltaTime; // 몬스터의 위치 = 움직이는 방향 x 움직이는 속도 x 실시간 프레임.
     }
 
+
+
+
     protected void Monster_Die() // 몬스터 사망 함수.
     {
         if (HP <= 0)
         {
+            isDie = true;
+
             StopCoroutine("ChangeMovement"); // 움직임 변환 코루틴 중지.
 
             rig.isKinematic = true; // 물리 효과의 영향 제거.

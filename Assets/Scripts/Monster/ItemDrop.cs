@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ItemDrop : MonoBehaviour {
+public class ItemDrop : MonoBehaviour{
 
     public GameObject item_0; // 아이템 오브젝트 변수 선언 0.
     public GameObject item_1; // 아이템 오브젝트 변수 선언 1.
@@ -11,25 +11,34 @@ public class ItemDrop : MonoBehaviour {
     public GameObject item_4; // 아이템 오브젝트 변수 선언 4. 
     public GameObject item_5; // 아이템 오브젝트 변수 선언 5.
 
-    private MonsterCTRL monsters; // 몬스터 컨트롤 스크립트 포함.
-    private IceMonsterCTRL Ice_mon; // 아이스크림 몬스터 스크립트 포함.
-
     int itemDropFlag = 0; // 아이템 드랍 플래그 변수 선언.
+
+    float DropTime = 0;
+
+    int Hp;
 
 
     // Use this for initialization
-    void Start () { // 오브젝트 초기화 선언.
-        monsters = GameObject.FindWithTag("Enemy").GetComponent<MonsterCTRL>();
-        //Ice_mon = mother_2.GetComponent<IceMonsterCTRL>(); // 아이스크림 몬스터 오브젝트 선언.
+    void Start () {
+        Hp = gameObject.GetComponent<Monster>().HP;
+
     }
 	
 	// Update is called once per frame
 	void Update () { // 반복형 함수
+        Drop();
+    }
 
-        /*itemDropFlag = Random.Range(0, 5); // 아이템 드랍 랜덤 플래그.
+    void Drop()
+    {
+        itemDropFlag = Random.Range(0, 5); // 아이템 드랍 랜덤 플래그.
 
-        if (monsters.HP == 0) // 몬스터의 체력이나 아이스크림 몬스터의 체력이 0일 경우.
+        if (Hp <= 0) // 몬스터의 체력이나 아이스크림 몬스터의 체력이 0일 경우.
         {
+            Debug.Log("Drop");
+
+            DropTime = DropTime + Time.deltaTime;
+
             if (itemDropFlag == 0) // 아이템 플래그가 0 일때.
             {
                 Instantiate(item_0, transform.position, transform.rotation); // 0번째 아이템 생성.
@@ -54,10 +63,7 @@ public class ItemDrop : MonoBehaviour {
             {
                 Instantiate(item_5, transform.position, transform.rotation); // 5번째 아이템 생성.
             }
-        }*/
-
-
-        Destroy(gameObject, 0.01f); // 아이템 드랍 매개체 제거.
+        }
     }
 
 }

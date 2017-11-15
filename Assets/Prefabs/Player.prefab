@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 114614515505102448}
   m_Layer: 0
   m_Name: Hand
-  m_TagString: Player_Up
+  m_TagString: Player_Hand
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 114691601143125430}
   m_Layer: 0
   m_Name: Body
-  m_TagString: Player_Up
+  m_TagString: Player_Body
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -167,7 +167,7 @@ GameObject:
   - component: {fileID: 114932626608605216}
   m_Layer: 0
   m_Name: Head
-  m_TagString: Player_Up
+  m_TagString: Player_Head
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -183,7 +183,6 @@ GameObject:
   - component: {fileID: 50114726755206734}
   - component: {fileID: 114240021971586802}
   - component: {fileID: 114742406418886448}
-  - component: {fileID: 114668767089135062}
   - component: {fileID: 61556043724823004}
   - component: {fileID: 58575016343176270}
   - component: {fileID: 114486390033427120}
@@ -633,10 +632,12 @@ MonoBehaviour:
   HP: 10
   ImageVec: 1
   rigid: {fileID: 50114726755206734}
-  Sprites_Up: {fileID: 0}
+  Sprites_Head: {fileID: 212239315766419554}
+  Sprites_Body: {fileID: 212312351405943180}
+  Sprites_Hand: {fileID: 212981355528678270}
   Sprites_Down: {fileID: 212577362180259698}
   isEnd: 0
-  attackedSeClip: {fileID: 0}
+  attackedSeClip: {fileID: 8300000, guid: 5527c633bfde1974894e5406a73c7970, type: 3}
   itemSeClip: {fileID: 0}
   hpmask: {fileID: 0}
   heartmask:
@@ -647,6 +648,8 @@ MonoBehaviour:
   maxHP: 10
   maxheart: 3
   hearthp: 3
+  JumpPower: 3
+  jumpedSeClip: {fileID: 8300000, guid: 8bcc6b71208023c4ab54a8a4708c95d6, type: 3}
 --- !u!114 &114588361587992886
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -671,19 +674,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
---- !u!114 &114668767089135062
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1753336300541862}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09218233431c6a744b514d18c536ff32, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  JumpPower: 120
-  jumpedSeClip: {fileID: 8300000, guid: 8bcc6b71208023c4ab54a8a4708c95d6, type: 3}
 --- !u!114 &114691311912011042
 MonoBehaviour:
   m_ObjectHideFlags: 1

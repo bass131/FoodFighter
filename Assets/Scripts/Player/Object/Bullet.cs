@@ -14,13 +14,13 @@ public class Bullet : MonoBehaviour { // 총탄 스크립트.
 
     public int direction; // 방향값 초기화.
 
-    private PlayerCRTL PlayerVelo; // 플레이어 클래스의 방향값 선언.
+    private Player PlayerVelo; // 플레이어 클래스의 방향값 선언.
 
    
 
 	// Use this for initialization
 	void Start () { // 한번만 실행하는 함수.
-        PlayerVelo = GameObject.FindWithTag("Player").GetComponent<PlayerCRTL>(); // 플레이어의 방향값의 참조 선언.
+        PlayerVelo = GameObject.FindWithTag("Player").GetComponent<Player>(); // 플레이어의 방향값의 참조 선언.
         
 
         Velocitys(); // 방향값을 받는 함수.

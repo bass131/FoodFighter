@@ -45,7 +45,6 @@ public class IceMonsterCTRL : MonoBehaviour // 아이스크림 몬스터 개별 
         animator = gameObject.GetComponent<Animator>(); // 오브젝트 애니메이터 참조.
 
         rig = gameObject.GetComponent<Rigidbody2D>(); // RigidBody2D 참조.
-        Scores = GameObject.FindWithTag("Score").GetComponent<Score>(); // 점수 클래스 참조.
 
         attackSeAudio = gameObject.AddComponent<AudioSource>(); // 공격 사운드 초기화.
         attackSeAudio.clip = attackSeClip;

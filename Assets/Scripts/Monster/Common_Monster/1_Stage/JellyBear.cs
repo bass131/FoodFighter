@@ -13,30 +13,48 @@ using UnityEngine;
 
 public class JellyBear : Monster {
 
-	// Update is called once per frame
-	void FixedUpdate () {
+    // Update is called once per frame
+    float Real_Time = 0; // 실제 시간.
+
+    void FixedUpdate()
+    {
         base.Monster_Move();
         base.Monster_Die();
-        Monster_Attack();
+        Monster_ATK();
     }
 
-    void Monster_Attack()
+    void Monster_ATK() // 몬스터 공격 함수.
     {
-        float Real_Time = 0; // 실제 시간.
-        Attack_Delay = 0.7f; // 공격 판정 선딜레이.
+        Attack_Delay = 1f; // 공격 판정 선딜레이.
 
-        if (isAttacking)
+
+        if (isAttacking) // 공격 중인 상황일때
         {
-            Real_Time = Real_Time + Time.time;
-            /*if( 실제 시간이 공격 딜레이가 되면 )
+            Debug.Log("Attack!");
+            Anim.SetBool("ATK", true);
+
+            if (Time.time > Real_Time) // 실제 시간이 공격 딜레이에 맞으면.
             {
-                공격 판정 트리거 ON;
-                인포 매니저에 전달.
-            }*/
+                Debug.Log("Bang");
+
+                Real_Time = Time.time + Attack_Delay;
+
+                Collider2D[] cols;
+                cols = Physics2D.OverlapCircleAll(this.gameObject.transform.position, 3);
+
+                foreach (var col in cols)
+                {
+                    if (col.gameObject.CompareTag("Player"))
+                    {
+                        col.gameObject.GetComponent<Player>().Hit(DAMAGE);
+                    }
+                }
+            }
+
         }
         else
         {
-            Real_Time = 0;
+            Anim.SetBool("ATK", false);
         }
     }
 
@@ -54,10 +72,13 @@ public class JellyBear : Monster {
         if (other.gameObject.tag == "Player") // 만약 오브젝트의 태그가 "Player" 일 경우.
         {
             isTracing = true;  // 추격 BOOL = true.
-            if((other.gameObject.transform.position.x - gameObject.transform.position.x) <= 2.0f)
+            if (gameObject.transform.position.x - other.gameObject.transform.position.x <= 2.0f)
             {
-                isTracing = false;
                 isAttacking = true;
+            }
+            else
+            {
+                isAttacking = false;
             }
         }
     }

@@ -15,7 +15,7 @@ public class Corn : Monster {
 
     void Monster_ATK() // 몬스터 공격 함수.
     {
-        Attack_Delay = 0.7f; // 공격 판정 선딜레이.
+        Attack_Delay = 1f; // 공격 판정 선딜레이.
 
 
         if (isAttacking) // 공격 중인 상황일때
@@ -23,7 +23,6 @@ public class Corn : Monster {
             Debug.Log("Attack!");
             Anim.SetBool("ATK", true);
 
-         
             if (Time.time > Real_Time) // 실제 시간이 공격 딜레이에 맞으면.
             {
                 Debug.Log("Bang");

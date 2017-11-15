@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 7f471dcac2cc0514d91d5ffcfc795be0
-timeCreated: 1507719353
+timeCreated: 1510721308
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -8,6 +8,11 @@ TextureImporter:
     21300002: Block_Head_02
     21300004: Block_Body_1
     21300006: "\uBC29\uC5B4_\uBD84\uB9AC_0"
+    21300008: Shield_5
+    21300010: Shield_1
+    21300012: Shield_2
+    21300014: Shield_3
+    21300016: Shield_4
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -146,6 +151,71 @@ TextureImporter:
         height: 32
       alignment: 9
       pivot: {x: 0.5, y: 0.047286987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Shield_5
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 21
+        width: 90
+        height: 100
+      alignment: 9
+      pivot: {x: 0.51050586, y: 0.50315183}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Shield_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 23
+        width: 47
+        height: 73
+      alignment: 9
+      pivot: {x: 0.99905956, y: 0.6901646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Shield_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 22
+        width: 66
+        height: 99
+      alignment: 9
+      pivot: {x: 0.6958276, y: 0.51450586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Shield_3
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 23
+        width: 91
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5043793, y: 0.5080581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Shield_4
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 22
+        width: 91
+        height: 101
+      alignment: 9
+      pivot: {x: 0.50472486, y: 0.5042574}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

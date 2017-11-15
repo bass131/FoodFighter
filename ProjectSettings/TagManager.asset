@@ -24,6 +24,9 @@ TagManager:
   - ATK
   - Fire
   - JoyStick
+  - Player_Head
+  - Player_Body
+  - Player_Hand
   layers:
   - Default
   - TransparentFX

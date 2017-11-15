@@ -131,7 +131,6 @@
     <Compile Include="Assets\Scripts\Player\Animation\PlayerAnimation_Boost.cs" />
     <Compile Include="Assets\Scripts\Player\Animation\PlayerAnimation_Bottom.cs" />
     <Compile Include="Assets\Scripts\Player\Animation\PlayerAnimation_Up.cs" />
-    <Compile Include="Assets\Scripts\Player\Bullet.cs" />
     <Compile Include="Assets\Scripts\Player\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Player\Function\FireCtrl.cs" />
     <Compile Include="Assets\Scripts\Player\Function\Hand_Rotation.cs" />
@@ -139,6 +138,8 @@
     <Compile Include="Assets\Scripts\Player\Function\PlayerCRTL.cs" />
     <Compile Include="Assets\Scripts\Player\Function\PlayerJump.cs" />
     <Compile Include="Assets\Scripts\Player\Function\PlayerWalkSound.cs" />
+    <Compile Include="Assets\Scripts\Player\Object\Barrior.cs" />
+    <Compile Include="Assets\Scripts\Player\Object\Bullet.cs" />
     <Compile Include="Assets\Scripts\Player\Rocket_Des.cs" />
     <Compile Include="Assets\Scripts\UI\HPbar.cs" />
     <Compile Include="Assets\Scripts\UI\TotalUI.cs" />
