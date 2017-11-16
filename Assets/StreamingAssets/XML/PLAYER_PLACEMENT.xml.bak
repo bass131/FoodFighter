@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Monsters>
+ <Monster ID = "10", Name = "ABC",Hp = "5", Atk = "1", AtkDelayForSec = "0.5", MoveSpeed = "1", JumpSpeed = "1", StartPositionX = "0", StartPositionY = "0"></Monster>
+ <Monster ID = "20", Name = "ABC",Hp = "5", Atk = "1", AtkDelayForSec = "0.5", MoveSpeed = "1", JumpSpeed = "1", StartPositionX = "0", StartPositionY = "0"></Monster>
+ <Monster ID = "30", Name = "ABC",Hp = "5", Atk = "1", AtkDelayForSec = "0.5", MoveSpeed = "1", JumpSpeed = "1", StartPositionX = "0", StartPositionY = "0"></Monster>
+ <Monster ID = "40", Name = "ABC",Hp = "5", Atk = "1", AtkDelayForSec = "0.5", MoveSpeed = "1", JumpSpeed = "1", StartPositionX = "0", StartPositionY = "0"></Monster>
+ <Monster ID = "50", Name = "ABC",Hp = "5", Atk = "1", AtkDelayForSec = "0.5", MoveSpeed = "1", JumpSpeed = "1", StartPositionX = "0", StartPositionY = "0"></Monster>
+ <Monster ID = "60", Name = "ABC",Hp = "5", Atk = "1", AtkDelayForSec = "0.5", MoveSpeed = "1", JumpSpeed = "1", StartPositionX = "0", StartPositionY = "0"></Monster>
+ <Monster ID = "70", Name = "ABC",Hp = "5", Atk = "1", AtkDelayForSec = "0.5", MoveSpeed = "1", JumpSpeed = "1", StartPositionX = "0", StartPositionY = "0"></Monster>
+  </Monsters>
+</MonsterCollection>
+
