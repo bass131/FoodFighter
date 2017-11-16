@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 434d19f424496084cb12dfaa26989547
-timeCreated: 1510230765
+timeCreated: 1510740121
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -254,7 +254,7 @@ TextureImporter:
         width: 50
         height: 86
       alignment: 9
-      pivot: {x: 0.23891723, y: 0.00000017742778}
+      pivot: {x: 0.88745606, y: 0.00000035485556}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -262,12 +262,12 @@ TextureImporter:
       name: ChocoDonut_ATK_12
       rect:
         serializedVersion: 2
-        x: 931
-        y: 99
-        width: 91
-        height: 127
+        x: 932
+        y: 98
+        width: 80
+        height: 128
       alignment: 9
-      pivot: {x: 0.24087961, y: -0.0010861374}
+      pivot: {x: 0.7726286, y: 0.0010844386}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -280,7 +280,7 @@ TextureImporter:
         width: 75
         height: 105
       alignment: 9
-      pivot: {x: 0.35179526, y: 0.011502002}
+      pivot: {x: 0.48943198, y: 0.011501857}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
@@ -293,7 +293,7 @@ TextureImporter:
         width: 64
         height: 69
       alignment: 9
-      pivot: {x: 0.5, y: -0.018876228}
+      pivot: {x: 0.48098946, y: -0.018876448}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

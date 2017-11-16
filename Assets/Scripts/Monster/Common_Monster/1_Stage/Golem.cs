@@ -61,7 +61,7 @@ public class Golem : Monster {
         if (other.gameObject.tag == "Player") // 만약 오브젝트의 태그가 "Player" 일 경우.
         {
             isTracing = true;  // 추격 BOOL = true.
-            if (gameObject.transform.position.x - other.gameObject.transform.position.x <= 2.0f)
+            if (gameObject.transform.position.x - other.gameObject.transform.position.x <= 3.0f)
             {
                 isAttacking = true;
             }

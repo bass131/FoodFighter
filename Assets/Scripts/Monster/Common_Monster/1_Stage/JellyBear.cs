@@ -48,6 +48,7 @@ public class JellyBear : Monster {
                     {
                         col.gameObject.GetComponent<Player>().Hit(DAMAGE);
                     }
+             
                 }
             }
 

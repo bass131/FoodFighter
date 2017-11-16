@@ -246,25 +246,33 @@ public class Player : MonoBehaviour, Actors {
     {
         ActiveTime = 2.0f;
 
-        float DashSpeed = 8.0f;
+        Head.animator.SetBool("Dash", true); // 렌더 변경.
+        Body.animator.SetBool("Dash", true); // 렌더 변경.
+        Hand.animator.SetBool("Dash", true); // 렌더 변경.
+        Player_Down.animator.SetBool("Dash", true); // 렌더 변경.
 
-        Head.animator.SetBool("Skill_A", true); // 렌더 변경.
-        Body.animator.SetBool("Skill_A", true); // 렌더 변경.
-        Hand.animator.SetBool("Skill_A", true); // 렌더 변경.
-        Player_Down.animator.SetBool("Skill_A", true); // 렌더 변경.
+        rigid.AddForce(new Vector2(ImageVec, 0) * 40f, ForceMode2D.Impulse);
 
-        for (int i = 0; i < 5; i++) // 5번 반복.
-        {
-            transform.Translate(MoveVelocity * DashSpeed * Time.deltaTime);
-        }
+        Invoke("invoke_A", 2.0f);
     }
+    void invoke_A()
+    {
+        Head.animator.SetBool("Dash", false); // 렌더 변경.
+        Body.animator.SetBool("Dash", false); // 렌더 변경.
+        Hand.animator.SetBool("Dash", false); // 렌더 변경.
+        Player_Down.animator.SetBool("Dash", false); // 렌더 변경.
+    }
+
+
+
+
+
 
     private void Skill_B() // 방어 스킬.
     {
         Head.animator.SetBool("Skill_B", true); // 렌더 변경.
         Body.animator.SetBool("Skill_B", true); // 렌더 변경.
         Hand.animator.SetBool("Skill_B", true); // 렌더 변경.
-
         Player_Down.animator.SetBool("Skill_B", true); // 렌더 변경.
 
         Instantiate(Barrior, gameObject.transform.position + new Vector3(0,1.2f), gameObject.transform.rotation);
@@ -310,6 +318,9 @@ public class Player : MonoBehaviour, Actors {
     }
 
 
+
+
+
     private void hpLower() // 맞을때마다 체력바 줄어듬
     {
         float deltaSize = HP / maxHP;
@@ -317,16 +328,41 @@ public class Player : MonoBehaviour, Actors {
     }
 
 
+
+
+
     public void Hit(int atk) // 피격함수 (미완성.)
     {
-        Debug.Log("GetDMG");
+        if (HP > 0)
+        {
+            Debug.Log("GetDMG");
 
-        HP = HP - atk; // 체력 소모.
-        attackedSeAudio.Play(); // 피격 사운드 출력.
-        hpLower();
+            HP = HP - atk; // 체력 소모.
+            attackedSeAudio.Play(); // 피격 사운드 출력.
+            hpLower();
+            
+            rigid.AddForce(new Vector2(ImageVec,0) * -1 * 35f, ForceMode2D.Impulse);
 
-        StartCoroutine("HitEffect");
+            Head.animator.SetBool("attacked", true); // 렌더 변경.
+            Body.animator.SetBool("attacked", true); // 렌더 변경.
+            Hand.animator.SetBool("attacked", true); // 렌더 변경.
+            Player_Down.animator.SetBool("attacked", true); // 렌더 변경.
+
+            Invoke("Hit_Invoke", 0.5f);
+        }
+
     }
+    void Hit_Invoke()
+    {
+        Head.animator.SetBool("attacked", false); // 렌더 변경.
+        Body.animator.SetBool("attacked", false); // 렌더 변경.
+        Hand.animator.SetBool("attacked", false); // 렌더 변경.
+        Player_Down.animator.SetBool("attacked", false); // 렌더 변경.
+    }
+
+
+
+
 
     IEnumerator HitEffect() // 피격 이펙트 코루틴.
     {
@@ -334,10 +370,6 @@ public class Player : MonoBehaviour, Actors {
 
         while (CountTime < 0.04f) // 카운트 경과 시간이 0.04f 미만 일때 까지 반복. 
         {
-            Head.animator.SetBool("attacked", true); // 렌더 변경.
-            Body.animator.SetBool("attacked", true); // 렌더 변경.
-            Hand.animator.SetBool("attacked", true); // 렌더 변경.
-            Player_Down.animator.SetBool("attacked", true); // 렌더 변경.
 
             if (CountTime % 0.04f == 0) // ' 카운트 경과 시간 % 0.04f ' 를 했을때 나머지가 0 인 경우.
             {
