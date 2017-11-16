@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlayerCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Players>
+	<Player ID = "0" Name = "Player" Tag = "Player" PrefabPath = "Temp/Player" Hp = "5" Atk = "1" AtkDelayForSec = "0.5" MoveSpeed = "1" JumpSpeed = "1" Projectile = "425545"> </Player>
+  </Players>
+</PlayerCollection>
+

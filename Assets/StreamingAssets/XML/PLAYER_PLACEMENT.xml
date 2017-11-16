@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlayerPlacementCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PlayerPlacements>
+<PlayerPlacement Index = "0", PlayerID = "0", StartPositionX = "0", StartPositionY = "0"> </PlayerPlacement>
+  </PlayerPlacements>
+</PlayerPlacementCollection>
+
