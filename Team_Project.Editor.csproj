@@ -133,8 +133,11 @@
     <Reference Include="UnityEditor.iOS.Extensions.Common">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
-    <Reference Include="UniRx">
-      <HintPath>Assets\Plugin\UniRx.dll</HintPath>
+    <Reference Include="DOTween46">
+      <HintPath>Assets\Plugin\DOTween\DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>Assets\Plugin\DOTween\Editor\DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
       <HintPath>Assets\Plugin\DOTween\DOTween.dll</HintPath>
@@ -142,14 +145,11 @@
     <Reference Include="DOTween43">
       <HintPath>Assets\Plugin\DOTween\DOTween43.dll</HintPath>
     </Reference>
-    <Reference Include="DOTween46">
-      <HintPath>Assets\Plugin\DOTween\DOTween46.dll</HintPath>
+    <Reference Include="UniRx">
+      <HintPath>Assets\Plugin\UniRx.dll</HintPath>
     </Reference>
     <Reference Include="DOTween50">
       <HintPath>Assets\Plugin\DOTween\DOTween50.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenEditor">
-      <HintPath>Assets\Plugin\DOTween\Editor\DOTweenEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

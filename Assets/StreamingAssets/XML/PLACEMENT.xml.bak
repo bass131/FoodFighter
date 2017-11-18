@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlacementCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Placements>
+ <Placement Index = "0" StageNumber = "0",ObjectType = "0", ObjectID = "0" StartPositionX = "0" StartPositionY = "0"></Placement>
+ <Placement Index = "1" StageNumber = "0",ObjectType = "2", ObjectID = "100" StartPositionX = "100" StartPositionY = "100"></Placement>
+  </Placements>
+</PlacementCollection>
+

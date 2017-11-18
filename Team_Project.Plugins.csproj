@@ -85,6 +85,21 @@
     <Reference Include="UnityEditor.iOS.Extensions.Common">
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>Assets\Plugin\DOTween\DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugin\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>Assets\Plugin\DOTween\DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="UniRx">
+      <HintPath>Assets\Plugin\UniRx.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>Assets\Plugin\DOTween\DOTween50.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs" />
@@ -184,9 +199,16 @@
     <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Plugin\DOTween\DOTween.XML" />
+    <None Include="Assets\Plugin\DOTween\DOTween43.xml" />
+    <None Include="Assets\Plugin\DOTween\DOTween46.xml" />
+    <None Include="Assets\Plugin\DOTween\DOTween50.xml" />
+    <None Include="Assets\Plugin\DOTween\Editor\DOTweenEditor.XML" />
+    <None Include="Assets\Plugin\DOTween\readme.txt" />
     <None Include="Assets\Resource\Scene_Image\Loading_Scene\작업순서.txt" />
     <None Include="Assets\Resource\UI\Font\Timer_Font\sibal.fnt" />
     <None Include="Assets\Resource\UI\prefeb\ha.fnt" />
+    <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <None Include="Assets\Scripts\ETC\OutlineEffect\Resources\OutlineEffect\OutlineBufferShader.shader" />
     <None Include="Assets\Scripts\ETC\OutlineEffect\Resources\OutlineEffect\OutlineShader.shader" />
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
@@ -221,6 +243,23 @@
     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+    <None Include="Assets\StreamingAssets\XML\MONSTER.xml" />
+    <None Include="Assets\StreamingAssets\XML\MONSTER_PLACEMENT.xml" />
+    <None Include="Assets\StreamingAssets\XML\OBSTACLE_PLACEMENT.xml" />
+    <None Include="Assets\StreamingAssets\XML\PLACEMENT.xml" />
+    <None Include="Assets\StreamingAssets\XML\PLAYER.xml" />
+    <None Include="Assets\StreamingAssets\XML\PLAYER_PLACEMENT.xml" />
+    <None Include="Assets\StreamingAssets\XML\필독!.txt" />
+    <None Include="Assets\UIWidgets\Sample Assets\classes.txt" />
+    <None Include="Assets\UIWidgets\Sample Assets\countries.txt" />
+    <None Include="Assets\UIWidgets\Shaders\UIGradientShaderHLineHSV.shader" />
+    <None Include="Assets\UIWidgets\Shaders\UIGradientShaderHLineRGB.shader" />
+    <None Include="Assets\UIWidgets\Shaders\UIGradientShaderPlaneHSV.shader" />
+    <None Include="Assets\UIWidgets\Shaders\UIGradientShaderPlaneRGB.shader" />
+    <None Include="Assets\UIWidgets\Shaders\UIGradientShaderVLineHSV.shader" />
+    <None Include="Assets\UIWidgets\Shaders\UIGradientShaderVLineRGB.shader" />
+    <None Include="Assets\UIWidgets\changelog.txt" />
+    <None Include="Assets\UIWidgets\readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
