@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<MonsterPlacementCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <MonsterPlacements>
- <MonsterPlacement Index = "0", MonsterId = "0", StartPositionX = "0", StartPositionY = "0"></MonsterPlacement>
- <MonsterPlacement Index = "0", MonsterId = "0", StartPositionX = "0", StartPositionY = "0"></MonsterPlacement>
-  </MonsterPlacements>
-</MonsterPlacementCollection>
-
