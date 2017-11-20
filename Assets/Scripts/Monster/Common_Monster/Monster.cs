@@ -32,7 +32,7 @@ public class Monster : MonoBehaviour {
 
     protected float Attack_Delay; // 공격 대기 시간.
 
-    protected bool isDie; // 사망스위치.
+    public bool isDie = false; // 사망스위치.
     protected bool isTracing; // 추적스위치.
     protected bool isAttacking; // 공격시작 스위치.
     public bool isAttack; //공격판정 스위치.
@@ -100,8 +100,6 @@ public class Monster : MonoBehaviour {
     {
         if (HP <= 0)
         {
-            isDie = true;
-
             StopCoroutine("ChangeMovement"); // 움직임 변환 코루틴 중지.
 
             rig.isKinematic = true; // 물리 효과의 영향 제거.
@@ -115,6 +113,13 @@ public class Monster : MonoBehaviour {
             Anim.SetBool("ATK", false); // 공격 애니메이터  = false.
 
             isTracing = false; // 추격 BOOL = false.
+
+            if(!isDie)
+            {
+                StageManager.instance.Clear_Cheak(1);
+                isDie = true;
+            }
+
 
             MovementFlag = 0; // 움직임 플래그 = 0.
             SPEED = 0; // 이동속도 = 0.

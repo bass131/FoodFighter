@@ -46,11 +46,12 @@ public class Boss_Stone : MonoBehaviour
 
         }
     }
-    private void OnCollisionEnter2D(Collision2D col)
+    private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag == "Player")
-        // 오브젝트의 태그가 'Enemy' or 'Enemy_Ice(아이스크림)' 일 경우.
+        // 오브젝트의 태그가 'Player' 일 경우.
         {
+            col.gameObject.GetComponent<Player>().Hit(1);
             Destroy(gameObject); // 총탄 삭제.
         }
     }

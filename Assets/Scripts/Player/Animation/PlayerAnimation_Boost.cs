@@ -18,7 +18,6 @@ public class PlayerAnimation_Boost : MonoBehaviour
 	void Update ()
     {
         Jump_anim();
-
     }
 
     void Jump_anim()

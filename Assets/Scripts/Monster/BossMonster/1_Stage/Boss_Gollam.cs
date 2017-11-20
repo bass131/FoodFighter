@@ -5,7 +5,9 @@ using UnityEngine;
 public class Boss_Gollam : MonoBehaviour {
 
     public int HP = 50; // 체력.
+    public int DAMAGE = 1; // 데미지.
     public float Speed = 2; // 이동속도.
+
     public float Scale = 1.0f; // 크기.
 
     public Transform trPunch; //펀치스킬 발사위치.
@@ -28,6 +30,8 @@ public class Boss_Gollam : MonoBehaviour {
     private bool isAttack = false; // 공격 트리거.
     private bool isSkill = false; // 스킬 트리거.
     private bool isDie = false; // 사망 트리거.
+
+    float Real_Time = 0; // 실제 시간.
 
     bool isFire = true;
 
@@ -59,7 +63,6 @@ public class Boss_Gollam : MonoBehaviour {
 
         if (isMoving)
         { 
-            StartCoroutine("Rand_Move");
 
             if (Flag == 1)
             {
@@ -86,12 +89,37 @@ public class Boss_Gollam : MonoBehaviour {
 
     }
 
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        bAttack();
+    }
+
     void bAttack()
     {
-        StopCoroutine("Movement");
         if(isAttack)
         {
-            //일반공격 시전.
+            StopCoroutine("Movement");
+
+            float Attack_Delay = 1f; // 공격 판정 선딜레이.
+
+            if (Time.time > Real_Time) // 실제 시간이 공격 딜레이에 맞으면.
+            {
+                Debug.Log("Bang");
+
+                Real_Time = Time.time + Attack_Delay;
+
+                Collider2D[] cols;
+                cols = Physics2D.OverlapCircleAll(this.gameObject.transform.position, 3);
+
+                foreach (var col in cols)
+                {
+                    if (col.gameObject.CompareTag("Player"))
+                    {
+                        col.gameObject.GetComponent<Player>().Hit(DAMAGE);
+                    }
+                }
+            }
         }
     }
     
@@ -105,7 +133,7 @@ public class Boss_Gollam : MonoBehaviour {
         else if (isSkill && Phase == 3 && !isFire)
         {
             isFire = true;
-            Instantiate(sPunch, trPunch);
+            Invoke("makePunch", 1.0f);
         }
         //주먹투사체 시전.
 
@@ -113,23 +141,39 @@ public class Boss_Gollam : MonoBehaviour {
         else if (isSkill && Phase == 4 && !isFire)
         {
             isFire = true;
-            Instantiate(sStone_A, trPunch);
-            Instantiate(sStone_B, trPunch);
-            Instantiate(sStone_C, trPunch);
+
+            Invoke("makeStone", 1.0f);
+       
         }
         //파편투사체 시전.
     }
+
+    void makePunch() // 펀치 생산.
+    {
+        Instantiate(sPunch, trPunch);
+    }
+
+    void makeStone() // 투사체 돌 생산.
+    {
+        Instantiate(sStone_A, trPunch);
+        Instantiate(sStone_B, trPunch);
+        Instantiate(sStone_C, trPunch);
+    }
     
-    void bDie()
+    void bDie() // 보스 사망 함수.
     {
         if(HP <= 0)
         {
             StopCoroutine("pStats");
             StopCoroutine("Movement");
+
+            Phase = 5;
             isMoving = false;
             isAttack = false;
             isSkill = false;
             isDie = true;
+
+            StageManager.instance.Stage_All_Clear = true;
 
             Destroy(gameObject, 12.0f);
         }
@@ -243,10 +287,11 @@ public class Boss_Gollam : MonoBehaviour {
                 break;
         }
 
-        yield return new WaitForSeconds(1.4f); // '3f' 딜레이 간격으로 실행.
+        yield return new WaitForSeconds(2.0f); // '3f' 딜레이 간격으로 실행.
 
         StartCoroutine("pStats");
     }
+
     IEnumerator Movement() // 움직임 변환 코루틴.
     {
         Flag = Random.Range(1, 2);

@@ -227,7 +227,6 @@
     <None Include="Assets\Resource\Scene_Image\Loading_Scene\작업순서.txt" />
     <None Include="Assets\Resource\UI\Font\Timer_Font\sibal.fnt" />
     <None Include="Assets\Resource\UI\prefeb\ha.fnt" />
-    <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <None Include="Assets\Scripts\ETC\OutlineEffect\Resources\OutlineEffect\OutlineBufferShader.shader" />
     <None Include="Assets\Scripts\ETC\OutlineEffect\Resources\OutlineEffect\OutlineShader.shader" />
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />

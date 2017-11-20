@@ -27,6 +27,11 @@ TagManager:
   - Player_Head
   - Player_Body
   - Player_Hand
+  - Boss
+  - Sec_01
+  - Sec_02
+  - Sec_03
+  - Sector
   layers:
   - Default
   - TransparentFX

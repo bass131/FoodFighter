@@ -42,12 +42,11 @@ public class FireCtrl : MonoBehaviour
 
 	// Update is called once per frame
 	void Update () {
-		shootbullet();
 	}
 
-	void shootbullet()
+	public void shootbullet()
 	{
-		if (Input.GetKey (KeyCode.LeftControl) && Time.time > NextFire) 
+		if (Time.time > NextFire) 
 		{ // 좌 컨트롤을 누르면.
 			
 			NextFire = Time.time + fireRate;

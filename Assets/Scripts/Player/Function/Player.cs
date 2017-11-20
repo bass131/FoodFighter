@@ -24,6 +24,8 @@ public class Player : MonoBehaviour, Actors {
 
     public Rigidbody2D rigid; // 중력 컴포넌트.
 
+    private CameraCRTL Camera; // 카메라.
+
     private FireCtrl fireCtrl; // 발사 컨트롤 스크립트.
     private PlayerAnimation_Up Head; // 플레이어 상체 - 머리.
     private PlayerAnimation_Up Body; // 플레이어 상체 - 몸.
@@ -70,6 +72,22 @@ public class Player : MonoBehaviour, Actors {
 
     Vector3 MoveVelocity = Vector3.zero; // 이동 방향 벡터 값.
 
+    public Vector2 Sec_01_minXAndY; // 섹터 1의 이동가능한 X와 Y값의 최소값.
+    public Vector2 Sec_01_maxXAndY; // 섹터 1의 이동가능한 X와 Y값의 최대값.
+
+    public Vector2 Sec_02_minXAndY; // 섹터 2의 이동가능한 X와 Y값의 최소값.
+    public Vector2 Sec_02_maxXAndY; // 섹터 2의 이동가능한 X와 Y값의 최대값.
+
+    public Vector2 Sec_03_minXAndY; // 섹터 3의 이동가능한 X와 Y값의 최소값.
+    public Vector2 Sec_03_maxXAndY; // 섹터 3의 이동가능한 X와 Y값의 최대값.
+
+    public Vector2 Boss_minXAndY; // 보스 섹터의 이동가능한 X와 Y값의 최소값.
+    public Vector2 Boss_maxXAndY; // 보스 섹터의 이동가능한 X와 Y값의 최대값.
+
+    public Vector2 total_minXAndY; // 모든 맵의 이동가능한 X와 Y값의 최소값.
+    public Vector2 total_maxXAndY; // 모든 맵의 이동가능한 X와 Y값의 최대값.
+
+
     //==========스킬 관련 변수=============//
     public GameObject Barrior; // 방어스킬 방어막.
 
@@ -80,8 +98,56 @@ public class Player : MonoBehaviour, Actors {
     public AudioClip jumpedSeClip; // 점프 사운드.
     AudioSource jumpedSeAudio;
 
+
+    private void Awake()
+    {
+        Camera = GameObject.FindWithTag("MainCamera").GetComponent<CameraCRTL>();
+
+        //================================================================//
+        Sec_01_minXAndY.x = Camera.Sec_01_minXAndY.x - 12f; // 섹터 1의 이동가능한 X와 Y값의 최소값.
+        Sec_01_minXAndY.y = 0; // 섹터 1의 이동가능한 X와 Y값의 최소값.
+
+        Sec_01_maxXAndY.x = Camera.Sec_01_maxXAndY.x + 12f; // 섹터 1의 이동가능한 X와 Y값의 최대값.
+        Sec_01_maxXAndY.y = 0; // 섹터 1의 이동가능한 X와 Y값의 최대값.
+
+        //-------------------------
+        Sec_02_minXAndY.x = Camera.Sec_02_minXAndY.x - 12f; // 섹터 2의 이동가능한 X와 Y값의 최소값.
+        Sec_02_minXAndY.y = 0; // 섹터 2의 이동가능한 X와 Y값의 최소값.
+
+        Sec_02_maxXAndY.x = Camera.Sec_02_maxXAndY.x + 12f; // 섹터 2의 이동가능한 X와 Y값의 최대값.
+        Sec_02_maxXAndY.y = 0; // 섹터 2의 이동가능한 X와 Y값의 최대값.
+
+        //-------------------------
+        Sec_03_minXAndY.x = Camera.Sec_03_minXAndY.x - 12f; // 섹터 3의 이동가능한 X와 Y값의 최소값.
+        Sec_03_minXAndY.y = 0; // 섹터 3의 이동가능한 X와 Y값의 최소값.
+
+        Sec_03_maxXAndY.x = Camera.Sec_03_maxXAndY.x + 12f; // 섹터 3의 이동가능한 X와 Y값의 최대값.
+        Sec_03_maxXAndY.y = 0; // 섹터 3의 이동가능한 X와 Y값의 최대값.
+
+        //-------------------------
+        Boss_minXAndY.x = Camera.Boss_minXAndY.x - 12f; // 보스 섹터의 이동가능한 X와 Y값의 최소값.
+        Boss_minXAndY.y = 0; // 보스 섹터의 이동가능한 X와 Y값의 최소값.
+
+        Boss_maxXAndY.x = Camera.Boss_maxXAndY.x + 12f; // 보스 섹터의 이동가능한 X와 Y값의 최대값.
+        Boss_maxXAndY.y = 0; // 보스 섹터의 이동가능한 X와 Y값의 최대값.
+
+        //-------------------------
+        Boss_minXAndY.x = Camera.Boss_minXAndY.x - 12f; // 섹터 1의 이동가능한 X와 Y값의 최소값.
+        Boss_minXAndY.y = 0; // 섹터 1의 이동가능한 X와 Y값의 최소값.
+
+        Boss_maxXAndY.x = Camera.Boss_maxXAndY.x + 12f; // 섹터 1의 이동가능한 X와 Y값의 최대값.
+        Boss_maxXAndY.y = 0; // 섹터 1의 이동가능한 X와 Y값의 최대값.
+
+        //-------------------------
+        total_minXAndY.x = Camera.total_minXAndY.x - 12f; // 섹터 1의 이동가능한 X와 Y값의 최소값.
+        total_minXAndY.y = 0; // 섹터 1의 이동가능한 X와 Y값의 최소값.
+
+        total_maxXAndY.x = Camera.total_maxXAndY.x + 12f; // 섹터 1의 이동가능한 X와 Y값의 최대값.
+        total_maxXAndY.y = 0; // 섹터 1의 이동가능한 X와 Y값의 최대값.
+    }
     // Use this for initialization
     void Start() {
+
         rigid = gameObject.GetComponent<Rigidbody2D>(); // 중력 컴포넌트 초기화.
 
         fireCtrl = GameObject.FindWithTag("Player").GetComponent<FireCtrl>(); // 발사 컨트롤 스크립트 초기화.
@@ -112,8 +178,6 @@ public class Player : MonoBehaviour, Actors {
 
         JoyStick = GameObject.FindWithTag("JoyStick").GetComponent<RectTransform>();
 
-        Monsters = GameObject.FindWithTag("Enemy").GetComponent<Monster>();
-
         //================================================================//
 
         hpmaskRect = hpmask.GetComponent<RectTransform>(); // 체력바 스프라이트 초기화.
@@ -130,11 +194,12 @@ public class Player : MonoBehaviour, Actors {
         Jump();
     }
 
-
     
     public void Move() // 플레이어 이동 함수.
     {
+
         MoveVelocity = Vector3.zero;
+
         if (HP == 0)
         {
             MoveVelocity = Vector3.zero;
@@ -147,6 +212,41 @@ public class Player : MonoBehaviour, Actors {
         else if (CrossPlatformInputManager.GetAxisRaw("Horizontal") > 0 && JoyStick.position.y < 175 && JoyStick.position.y > 60)
         {
             Player_R();
+        }
+
+        if (StageManager.instance.Player_State == StageManager.Stage.Move)
+        //만약 플레이어의 상태가 이동중이라면
+        {
+            transform.position = new Vector2(Mathf.Clamp(transform.position.x, total_minXAndY.x, total_maxXAndY.x), transform.position.y);
+            // 플레이어의 x 좌표 이동의 제한은 전체 최소 및 최대
+        }
+        else if (StageManager.instance.Player_State == StageManager.Stage.Engage)
+        // 만약 플레이어의 상태가 교전중이고.
+        {
+            switch (StageManager.instance.Sec)
+            //섹터의 상태를 체크.
+            {
+                case StageManager.Sector.Sector_1:
+                    //첫번째 섹터에 있는 상태라면.
+                    transform.position = new Vector2(Mathf.Clamp(transform.position.x, Sec_01_minXAndY.x, Sec_01_maxXAndY.x), transform.position.y);                    
+                    //카메라의 x 좌표 이동의 제한은 섹터 1의 최소 및 최대.
+                    break;
+                case StageManager.Sector.Sector_2:
+                    //두번째 섹터에 있는 상태라면.
+                    transform.position = new Vector2(Mathf.Clamp(transform.position.x, Sec_02_minXAndY.x, Sec_02_maxXAndY.x), transform.position.y);
+                    //카메라의 x 좌표 이동의 제한은 섹터 2의 최소 및 최대.
+                    break;
+                case StageManager.Sector.Sector_3:
+                    //세번째 섹터에 있는 상태라면.
+                    transform.position = new Vector2(Mathf.Clamp(transform.position.x, Sec_03_minXAndY.x, Sec_03_maxXAndY.x), transform.position.y);           
+                    //카메라의 x 좌표 이동의 제한은 섹터 3의 최소 및 최대.
+                    break;
+                case StageManager.Sector.Boss:
+                    //보스 섹터에 있는 상태라면.
+                    transform.position = new Vector2(Mathf.Clamp(transform.position.x, Boss_minXAndY.x, Boss_maxXAndY.x), transform.position.y);             
+                    //카메라의 x 좌표 이동의 제한은 보스 섹터의 최소 및 최대.
+                    break;
+            }
         }
 
         transform.position = transform.position + (MoveVelocity * SPEED * Time.deltaTime);
@@ -165,7 +265,6 @@ public class Player : MonoBehaviour, Actors {
         ImageVec = -1;
         transform.localScale = new Vector3(ImageVec, 1, 1);
     }
-
 
 
 
@@ -241,8 +340,7 @@ public class Player : MonoBehaviour, Actors {
         }
     }
 
-
-    private void Skill_A() // 대쉬 스킬.
+    public void Skill_A() // 대쉬 스킬.
     {
         ActiveTime = 2.0f;
 
@@ -279,7 +377,7 @@ public class Player : MonoBehaviour, Actors {
     }
     
 
-    private void Skill_C() // 이단 점프.
+    public void Skill_C() // 이단 점프.
     {
         isjump = true;
 

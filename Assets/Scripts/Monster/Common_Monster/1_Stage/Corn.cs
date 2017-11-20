@@ -17,7 +17,6 @@ public class Corn : Monster {
     {
         Attack_Delay = 1f; // 공격 판정 선딜레이.
 
-
         if (isAttacking) // 공격 중인 상황일때
         {
             Debug.Log("Attack!");

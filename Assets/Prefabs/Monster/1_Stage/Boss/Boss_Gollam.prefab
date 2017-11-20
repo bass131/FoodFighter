@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 114678384321280922}
   m_Layer: 0
   m_Name: Boss_Gollam
-  m_TagString: Enemy
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53,8 +53,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1526405866476164}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.83, y: -24.19, z: 0}
-  m_LocalScale: {x: 1.8458344, y: 1.8458344, z: 1.8458344}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.7899884, y: 1.7899884, z: 1.7899884}
   m_Children:
   - {fileID: 4206013203179658}
   m_Father: {fileID: 0}
@@ -146,9 +146,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfab8d26510ab8748842e50842f440fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 50
-  Speed: 4
-  Scale: 1.84583
+  HP: 10
+  DAMAGE: 1
+  Speed: 1.3
+  Scale: 1.789988
   trPunch: {fileID: 4206013203179658}
   sPunch: {fileID: 1383543318589506, guid: 52e9823ed8390644da3f5431455817fc, type: 2}
   sStone_A: {fileID: 1905279512989566, guid: 570b52f0645cea241ac93990e7d705b9, type: 2}

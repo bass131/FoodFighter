@@ -57,7 +57,7 @@ public class Bullet : MonoBehaviour { // 총탄 스크립트.
 
     private void OnCollisionEnter2D(Collision2D col) 
     {
-        if (col.gameObject.tag == "Enemy" || col.gameObject.tag == "Enemy_Ice")
+        if (col.gameObject.tag == "Enemy" || col.gameObject.tag == "Boss")
             // 오브젝트의 태그가 'Enemy' or 'Enemy_Ice(아이스크림)' 일 경우.
         {
             Instantiate(effect, transform.position, transform.rotation);
