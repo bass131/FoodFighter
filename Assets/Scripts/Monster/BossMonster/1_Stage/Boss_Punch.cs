@@ -7,11 +7,15 @@ public class Boss_Punch : MonoBehaviour {
 
     public int PunchVelocity = 0; // 총탄의 방향 0으로 우선 초기화.
 
+    public float Scale;
+
     private Transform Player;
+    private SpriteRenderer Punchs;
 
     // Use this for initialization
     void Start()
     {
+        Punchs = gameObject.GetComponent<SpriteRenderer>();
         Player = GameObject.FindWithTag("Player").GetComponent<Transform>(); // 플레이어의 방향값의 참조 선언.
         Velocitys(); // 방향값을 받는 함수.
     }

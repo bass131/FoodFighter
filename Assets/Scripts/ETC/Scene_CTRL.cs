@@ -10,6 +10,8 @@ public class Scene_CTRL : MonoBehaviour {
 	private float Realtime;
 	private float Scenetime = 2.5f;
 
+    bool play = false;
+
 	// Use this for initialization
 	void Start () {
 		logoAudio = gameObject.AddComponent<AudioSource> ();
@@ -20,11 +22,15 @@ public class Scene_CTRL : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Realtime += Time.deltaTime;
-
-
-		if (Scenetime < Realtime) {
-			SceneManager.LoadScene ("Title");
-		}
+        if (play == false)
+        {
+            Invoke("LoadScene", 4.0f);
+            play = true;
+        }
 	}
+
+    void LoadScene()
+    {
+        SceneManager.LoadScene("MainTitle");
+    }
 }

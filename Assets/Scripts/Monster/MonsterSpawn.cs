@@ -23,13 +23,13 @@ public class MonsterSpawn : MonoBehaviour
     {
 
     }
-
+    
     // Update is called once per frame
     void Update()
     {
-        if(isSpawn)
+        if (isSpawn && StageManager.instance.Player_State == StageManager.Stage.Engage)
         {
-            MonsterFlag = Random.Range(1, 5);
+            MonsterFlag = Random.Range(1, 4);
             RealTime += Time.deltaTime;
             if (RealTime > SpawnRate)
             {

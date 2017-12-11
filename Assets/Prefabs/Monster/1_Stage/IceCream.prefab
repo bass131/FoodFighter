@@ -11,22 +11,6 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1034814853947612}
   m_IsPrefabParent: 1
---- !u!1 &1011077402033968
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4733930115493204}
-  - component: {fileID: 58322225965679102}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Attack_Ice
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1034814853947612
 GameObject:
   m_ObjectHideFlags: 0
@@ -50,19 +34,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4733930115493204
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1011077402033968}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4940600590980730}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4940600590980730
 Transform:
   m_ObjectHideFlags: 1
@@ -70,10 +41,9 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1034814853947612}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -60.48, y: -24.5, z: 0}
+  m_LocalPosition: {x: -64.57213, y: -24.414661, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
-  m_Children:
-  - {fileID: 4733930115493204}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -96,22 +66,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 5
---- !u!58 &58322225965679102
-CircleCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1011077402033968}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.5}
-  serializedVersion: 2
-  m_Radius: 0.1
+  m_Constraints: 4
 --- !u!58 &58724737873651460
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -217,9 +172,13 @@ MonoBehaviour:
   DAMAGE: 1
   SPEED: 1
   SCALE: 3
+  RANGE: 2.5
   traceTarget: {fileID: 0}
   Anim: {fileID: 95295279793648362}
+  BoxCol: {fileID: 61748526572132156}
+  isDie: 0
   isAttack: 0
+  canMove: 1
 --- !u!212 &212287941629160380
 SpriteRenderer:
   m_ObjectHideFlags: 1

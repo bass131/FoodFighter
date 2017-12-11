@@ -8,11 +8,7 @@ TagManager:
   - Enemy
   - MapWall
   - Attack
-  - Attack_Stick
-  - Attack_Corn
-  - Attack_Jelly
   - Camera
-  - Attack_Ice
   - Road
   - Attack_Giant
   - Enemy_Ice
@@ -28,10 +24,19 @@ TagManager:
   - Player_Body
   - Player_Hand
   - Boss
-  - Sec_01
-  - Sec_02
-  - Sec_03
   - Sector
+  - Jump_Skill
+  - Dash_Skill
+  - Attack_Ice
+  - Attack_Jelly
+  - Attack_Stick
+  - Attack_Corn
+  - Sector_1
+  - Sector_2
+  - Sector_3
+  - Booster
+  - Rocket
+  - Gun
   layers:
   - Default
   - TransparentFX

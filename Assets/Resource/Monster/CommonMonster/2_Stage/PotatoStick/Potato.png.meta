@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 1a2fcbb423fb2e841b8f85c15c38ecf0
-timeCreated: 1510228235
+timeCreated: 1512538568
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -45,6 +45,54 @@ TextureImporter:
     21300076: Potato_Die_19
     21300078: Potato_Die_20
     21300080: Potato_Die_21
+    21300082: Potato_0
+    21300084: Potato_1
+    21300086: Potato_2
+    21300088: Potato_3
+    21300090: Potato_4
+    21300092: Potato_5
+    21300094: Potato_6
+    21300096: Potato_8
+    21300098: Potato_9
+    21300100: Potato_10
+    21300102: Potato_11
+    21300104: Potato_12
+    21300106: Potato_13
+    21300108: Potato_14
+    21300110: Potato_15
+    21300112: Potato_16
+    21300114: Potato_17
+    21300116: Potato_18
+    21300118: Potato_19
+    21300120: Potato_20
+    21300122: Potato_21
+    21300124: Potato_22
+    21300126: Potato_23
+    21300128: Potato_24
+    21300130: Potato_25
+    21300132: Potato_31
+    21300134: Potato_32
+    21300136: Potato_33
+    21300138: Potato_34
+    21300140: Potato_35
+    21300142: Potato_36
+    21300144: Potato_37
+    21300146: Potato_38
+    21300148: Potato_39
+    21300150: Potato_41
+    21300152: Potato_42
+    21300154: Potato_43
+    21300156: Potato_44
+    21300158: Potato_45
+    21300160: Potato_47
+    21300162: Potato_51
+    21300164: Potato_53
+    21300166: Potato_54
+    21300168: Potato_55
+    21300170: Potato_56
+    21300172: Potato_57
+    21300174: Potato_78
+    21300176: Potato_48
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -135,535 +183,600 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Potato_Move_01
+      name: Potato_0
       rect:
         serializedVersion: 2
         x: 95
-        y: 858
-        width: 132
+        y: 866
+        width: 144
+        height: 160
+      alignment: 9
+      pivot: {x: 0.44458377, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Potato_1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 867
+        width: 165
         height: 168
       alignment: 9
-      pivot: {x: 0.4783671, y: 0.09348551}
+      pivot: {x: 0.45854604, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_Move_02
+      name: Potato_2
       rect:
         serializedVersion: 2
-        x: 267
-        y: 863
-        width: 167
-        height: 182
-      alignment: 9
-      pivot: {x: 0.44317445, y: 0.0773634}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Potato_Move_03
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 863
-        width: 160
+        x: 465
+        y: 866
+        width: 159
         height: 179
-      alignment: 9
-      pivot: {x: 0.49832916, y: 0.08093091}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_Move_04
+      name: Potato_3
       rect:
         serializedVersion: 2
-        x: 698
-        y: 861
+        x: 662
+        y: 871
+        width: 157
+        height: 177
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Potato_4
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 866
+        width: 159
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Potato_5
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 873
         width: 165
-        height: 181
+        height: 173
       alignment: 9
-      pivot: {x: 0.48263678, y: 0.08719125}
+      pivot: {x: 0.45854566, y: -0.0065893275}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_Move_05
+      name: Potato_6
       rect:
         serializedVersion: 2
-        x: 928
-        y: 859
-        width: 172
-        height: 183
+        x: 1279
+        y: 881
+        width: 144
+        height: 166
       alignment: 9
-      pivot: {x: 0.44020683, y: 0.099909216}
+      pivot: {x: 0.4445843, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_ATK_01
+      name: Potato_8
       rect:
         serializedVersion: 2
         x: 84
-        y: 647
-        width: 136
-        height: 165
+        y: 653
+        width: 135
+        height: 158
       alignment: 9
-      pivot: {x: 0.48174298, y: 0.082765155}
+      pivot: {x: 0.47014862, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_ATK_02
+      name: Potato_9
       rect:
         serializedVersion: 2
-        x: 238
-        y: 647
-        width: 131
-        height: 164
+        x: 266
+        y: 655
+        width: 134
+        height: 156
       alignment: 9
-      pivot: {x: 0.46209273, y: 0.08970381}
+      pivot: {x: 0.48496303, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_ATK_03
+      name: Potato_10
       rect:
         serializedVersion: 2
-        x: 382
-        y: 649
-        width: 139
-        height: 162
+        x: 452
+        y: 652
+        width: 123
+        height: 156
       alignment: 9
-      pivot: {x: 0.39282247, y: 0.08440032}
+      pivot: {x: 0.41366056, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_ATK_04
+      name: Potato_11
       rect:
         serializedVersion: 2
-        x: 542
-        y: 648
-        width: 129
-        height: 164
+        x: 618
+        y: 650
+        width: 137
+        height: 156
       alignment: 9
-      pivot: {x: 0.40376222, y: 0.098874345}
+      pivot: {x: 0.44451103, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_ATK_05
+      name: Potato_12
       rect:
         serializedVersion: 2
-        x: 699
+        x: 771
         y: 648
         width: 124
-        height: 165
+        height: 157
       alignment: 9
-      pivot: {x: 0.4399291, y: 0.1128614}
+      pivot: {x: 0.4846733, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_ATK_06
+      name: Potato_13
       rect:
         serializedVersion: 2
-        x: 848
+        x: 926
+        y: 651
+        width: 122
+        height: 156
+      alignment: 9
+      pivot: {x: 0.43768862, y: -0.006091387}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Potato_14
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 650
+        width: 122
+        height: 156
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Potato_15
+      rect:
+        serializedVersion: 2
+        x: 1234
         y: 648
-        width: 121
-        height: 164
+        width: 129
+        height: 158
       alignment: 9
-      pivot: {x: 0.51026046, y: 0.09083966}
+      pivot: {x: 0.5110232, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_ATK_07
+      name: Potato_16
       rect:
         serializedVersion: 2
-        x: 1006
-        y: 647
-        width: 127
-        height: 165
-      alignment: 9
-      pivot: {x: 0.520775, y: 0.10660511}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Potato_ATK_08
-      rect:
-        serializedVersion: 2
-        x: 1169
+        x: 1395
         y: 649
-        width: 144
-        height: 163
+        width: 145
+        height: 157
       alignment: 9
-      pivot: {x: 0.4877845, y: 0.0917261}
+      pivot: {x: 0.49344608, y: 0.001765384}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_ATK_09
+      name: Potato_17
       rect:
         serializedVersion: 2
-        x: 1341
-        y: 655
-        width: 161
-        height: 162
+        x: 1567
+        y: 651
+        width: 162
+        height: 160
       alignment: 9
-      pivot: {x: 0.42352334, y: 0.06251319}
+      pivot: {x: 0.43847203, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_ATK_10
+      name: Potato_18
       rect:
         serializedVersion: 2
         x: 65
-        y: 433
-        width: 191
-        height: 186
+        y: 443
+        width: 168
+        height: 153
       alignment: 9
-      pivot: {x: 0.3238326, y: 0.07799522}
+      pivot: {x: 0.3675382, y: -0.0069262935}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_ATK_11
+      name: Potato_19
       rect:
         serializedVersion: 2
-        x: 297
-        y: 433
-        width: 201
-        height: 163
+        x: 289
+        y: 437
+        width: 189
+        height: 159
       alignment: 9
-      pivot: {x: 0.26270762, y: 0.09961274}
+      pivot: {x: 0.314974, y: -0.00000019193445}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_ATK_12
+      name: Potato_20
       rect:
         serializedVersion: 2
-        x: 531
+        x: 530
+        y: 426
+        width: 157
+        height: 171
+      alignment: 9
+      pivot: {x: 0.33125877, y: -0.00000017846537}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Potato_21
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 424
+        width: 118
+        height: 173
+      alignment: 9
+      pivot: {x: 0.4596237, y: -0.00000035280436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Potato_22
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 420
+        width: 142
+        height: 182
+      alignment: 9
+      pivot: {x: 0.4432257, y: -0.000000167679}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Potato_23
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 440
+        width: 136
+        height: 158
+      alignment: 9
+      pivot: {x: 0.46157837, y: -0.00000019314923}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Potato_24
+      rect:
+        serializedVersion: 2
+        x: 1301
         y: 434
-        width: 183
-        height: 163
+        width: 136
+        height: 161
       alignment: 9
-      pivot: {x: 0.28373042, y: 0.08369268}
+      pivot: {x: 0.4694842, y: 0.00000018955018}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_ATK_13
+      name: Potato_25
       rect:
         serializedVersion: 2
-        x: 770
-        y: 435
-        width: 119
-        height: 162
-      alignment: 9
-      pivot: {x: 0.43177807, y: 0.082011655}
+        x: 1492
+        y: 561
+        width: 97
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_ATK_14
-      rect:
-        serializedVersion: 2
-        x: 963
-        y: 433
-        width: 137
-        height: 163
-      alignment: 9
-      pivot: {x: 0.3666685, y: 0.09961274}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Potato_ATK_15
-      rect:
-        serializedVersion: 2
-        x: 1139
-        y: 432
-        width: 127
-        height: 164
-      alignment: 9
-      pivot: {x: 0.51356804, y: 0.09620983}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Potato_Die_01
+      name: Potato_31
       rect:
         serializedVersion: 2
         x: 70
-        y: 234
-        width: 135
-        height: 164
+        y: 241
+        width: 136
+        height: 157
       alignment: 9
-      pivot: {x: 0.46774033, y: 0.100909255}
+      pivot: {x: 0.47012138, y: -0.00000009718974}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_Die_02
+      name: Potato_33
       rect:
         serializedVersion: 2
-        x: 249
-        y: 234
-        width: 198
-        height: 162
+        x: 269
+        y: 243
+        width: 150
+        height: 153
       alignment: 9
-      pivot: {x: 0.44890663, y: 0.09434481}
+      pivot: {x: 0.4661373, y: -0.00000009973065}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_Die_03
+      name: Potato_34
       rect:
         serializedVersion: 2
-        x: 485
-        y: 233
-        width: 198
-        height: 163
+        x: 494
+        y: 242
+        width: 176
+        height: 154
       alignment: 9
-      pivot: {x: 0.44238344, y: 0.08998473}
+      pivot: {x: 0.45959577, y: -0.000000099083046}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_Die_04
+      name: Potato_35
       rect:
         serializedVersion: 2
         x: 714
-        y: 233
+        y: 244
         width: 198
-        height: 162
+        height: 151
       alignment: 9
-      pivot: {x: 0.44548604, y: 0.08748241}
+      pivot: {x: 0.45382383, y: -0.00000010105158}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_Die_05
+      name: Potato_36
       rect:
         serializedVersion: 2
         x: 944
-        y: 231
+        y: 242
         width: 198
-        height: 162
+        height: 151
       alignment: 9
-      pivot: {x: 0.44554615, y: 0.10352938}
+      pivot: {x: 0.44869286, y: -0.00000010105158}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_Die_06
+      name: Potato_37
       rect:
         serializedVersion: 2
         x: 1178
-        y: 231
+        y: 238
         width: 198
-        height: 162
+        height: 155
       alignment: 9
-      pivot: {x: 0.44554615, y: 0.096134424}
+      pivot: {x: 0.4538235, y: -0.0000001968876}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_Die_07
+      name: Potato_38
       rect:
         serializedVersion: 2
         x: 1405
-        y: 232
+        y: 239
         width: 198
-        height: 164
+        height: 157
       alignment: 9
-      pivot: {x: 0.46369764, y: 0.102266915}
+      pivot: {x: 0.4640848, y: -0.00000019437948}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_Die_08
+      name: Potato_39
       rect:
         serializedVersion: 2
-        x: 1634
-        y: 232
-        width: 183
-        height: 164
+        x: 1636
+        y: 237
+        width: 181
+        height: 159
       alignment: 9
-      pivot: {x: 0.45417494, y: 0.102266915}
+      pivot: {x: 0.47532898, y: 0.00000009596722}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_Die_09
+      name: Potato_41
       rect:
         serializedVersion: 2
         x: 77
-        y: 54
+        y: 58
         width: 119
-        height: 160
+        height: 156
       alignment: 9
-      pivot: {x: 0.4532117, y: 0.09279585}
+      pivot: {x: 0.46996492, y: -0.00000022007869}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_Die_10
+      name: Potato_42
       rect:
         serializedVersion: 2
         x: 250
-        y: 54
+        y: 56
         width: 104
-        height: 159
-      alignment: 9
-      pivot: {x: 0.45538652, y: 0.08170698}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Potato_Die_11
-      rect:
-        serializedVersion: 2
-        x: 396
-        y: 55
-        width: 106
         height: 157
       alignment: 9
-      pivot: {x: 0.4649825, y: 0.07683729}
+      pivot: {x: 0.46528655, y: -0.000000072892306}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_Die_12
+      name: Potato_43
       rect:
         serializedVersion: 2
-        x: 549
-        y: 52
-        width: 103
-        height: 158
-      alignment: 9
-      pivot: {x: 0.4210857, y: 0.09984357}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Potato_Die_13
-      rect:
-        serializedVersion: 2
-        x: 674
-        y: 55
-        width: 105
-        height: 157
-      alignment: 9
-      pivot: {x: 0.43813592, y: 0.08865842}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Potato_Die_14
-      rect:
-        serializedVersion: 2
-        x: 803
-        y: 53
-        width: 106
-        height: 157
-      alignment: 9
-      pivot: {x: 0.4336853, y: 0.06964765}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Potato_Die_15
-      rect:
-        serializedVersion: 2
-        x: 940
-        y: 53
-        width: 105
-        height: 156
-      alignment: 9
-      pivot: {x: 0.425615, y: 0.090120904}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Potato_Die_16
-      rect:
-        serializedVersion: 2
-        x: 1071
-        y: 53
+        x: 399
+        y: 56
         width: 102
         height: 156
       alignment: 9
-      pivot: {x: 0.41585407, y: 0.09353173}
+      pivot: {x: 0.46913895, y: 0.00000014671913}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_Die_17
+      name: Potato_44
       rect:
         serializedVersion: 2
-        x: 1201
-        y: 55
+        x: 550
+        y: 57
+        width: 102
+        height: 153
+      alignment: 9
+      pivot: {x: 0.42839918, y: 0.00000009973065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Potato_45
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 56
+        width: 120
+        height: 165
+      alignment: 9
+      pivot: {x: 0.48384756, y: 0.00000009247751}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Potato_47
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 59
+        width: 120
+        height: 157
+      alignment: 9
+      pivot: {x: 0.42731324, y: -0.000000024297435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Potato_51
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 53
         width: 118
-        height: 158
+        height: 162
       alignment: 9
-      pivot: {x: 0.49272648, y: 0.08691585}
+      pivot: {x: 0.42608228, y: 0.0059825755}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_Die_18
+      name: Potato_53
       rect:
         serializedVersion: 2
-        x: 1346
-        y: 53
-        width: 136
+        x: 1226
+        y: 57
+        width: 119
         height: 156
-      alignment: 9
-      pivot: {x: 0.5567986, y: 0.09353173}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_Die_19
+      name: Potato_54
       rect:
         serializedVersion: 2
-        x: 1489
-        y: 53
-        width: 136
-        height: 156
-      alignment: 9
-      pivot: {x: 0.55548096, y: 0.102781884}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Potato_Die_20
-      rect:
-        serializedVersion: 2
-        x: 1633
-        y: 53
-        width: 137
+        x: 1374
+        y: 54
+        width: 142
         height: 155
       alignment: 9
-      pivot: {x: 0.56196004, y: 0.10344499}
+      pivot: {x: 0.58190143, y: -0.00000002461095}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Potato_Die_21
+      name: Potato_55
       rect:
         serializedVersion: 2
-        x: 1769
+        x: 1527
         y: 53
-        width: 137
+        width: 145
         height: 156
       alignment: 9
-      pivot: {x: 0.568845, y: 0.102781884}
+      pivot: {x: 0.5868905, y: 0.00000012226594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Potato_56
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 53
+        width: 142
+        height: 155
+      alignment: 9
+      pivot: {x: 0.58190143, y: 0.00000012305475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Potato_57
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 78
+        width: 118
+        height: 131
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Potato_48
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 56
+        width: 119
+        height: 162
+      alignment: 9
+      pivot: {x: 0.45961934, y: 0.003455056}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0

@@ -106,6 +106,7 @@
     <Compile Include="Assets\Scripts\InterFace\Object.cs" />
     <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
     <Compile Include="Assets\Scripts\Manager\StageManager.cs" />
+    <Compile Include="Assets\Scripts\Manager\UI_Manager.cs" />
     <Compile Include="Assets\Scripts\Monster\ATK_RANGE.cs" />
     <Compile Include="Assets\Scripts\Monster\BossMonster\1_Stage\Boss_Gollam.cs" />
     <Compile Include="Assets\Scripts\Monster\BossMonster\1_Stage\Boss_Punch.cs" />
@@ -139,6 +140,7 @@
     <Compile Include="Assets\Scripts\UI\Event\Event_Image.cs" />
     <Compile Include="Assets\Scripts\UI\Event\Sector_Image.cs" />
     <Compile Include="Assets\Scripts\UI\HPbar.cs" />
+    <Compile Include="Assets\Scripts\UI\UI_CoolTime.cs" />
     <Compile Include="Assets\Scripts\UI\VirtualJoystick.cs" />
     <Compile Include="Assets\Scripts\UI\countdown.cs" />
   </ItemGroup>

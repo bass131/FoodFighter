@@ -59,10 +59,10 @@ public class Boss_Gollam : MonoBehaviour {
     {
         Vector3 moveVelocity = Vector3.zero; // 벡터 3 값 움직이는 방향.
         string dist = ""; // 거리값을 문자열로 선언.
-        StartCoroutine("Movement");
 
         if (isMoving)
-        { 
+        {
+            Flag = Random.Range(1, 2);
 
             if (Flag == 1)
             {
@@ -133,7 +133,7 @@ public class Boss_Gollam : MonoBehaviour {
         else if (isSkill && Phase == 3 && !isFire)
         {
             isFire = true;
-            Invoke("makePunch", 1.0f);
+            makePunch();
         }
         //주먹투사체 시전.
 
@@ -141,8 +141,7 @@ public class Boss_Gollam : MonoBehaviour {
         else if (isSkill && Phase == 4 && !isFire)
         {
             isFire = true;
-
-            Invoke("makeStone", 1.0f);
+            makeStone();
        
         }
         //파편투사체 시전.
@@ -150,11 +149,13 @@ public class Boss_Gollam : MonoBehaviour {
 
     void makePunch() // 펀치 생산.
     {
+        Debug.Log("Punch");
         Instantiate(sPunch, trPunch);
     }
 
     void makeStone() // 투사체 돌 생산.
     {
+        Debug.Log("Stone");
         Instantiate(sStone_A, trPunch);
         Instantiate(sStone_B, trPunch);
         Instantiate(sStone_C, trPunch);

@@ -31,8 +31,8 @@ public class Hand_Rotation : MonoBehaviour {
     void H_Rotate()
     {
         None_P.eulerAngles = new Vector3(0, 0, 0);
-        z_raw_1.eulerAngles = new Vector3(0, 0, 40);
-        z_raw_2.eulerAngles = new Vector3(0, 0, -40);
+        z_raw_1.eulerAngles = new Vector3(0, 0, 32);
+        z_raw_2.eulerAngles = new Vector3(0, 0, -32);
 
         if (Player.ImageVec == 1)
         { 

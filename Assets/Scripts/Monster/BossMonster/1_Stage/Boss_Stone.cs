@@ -8,7 +8,7 @@ public class Boss_Stone : MonoBehaviour
 
     public int StoneVelocity = 0; // 총탄의 방향 0으로 우선 초기화.
 
-
+    private SpriteRenderer Stones;
     private Transform Player;
 
     // Use this for initialization
@@ -16,7 +16,7 @@ public class Boss_Stone : MonoBehaviour
     {
         Player = GameObject.FindWithTag("Player").GetComponent<Transform>(); // 플레이어의 방향값의 참조 선언.
 
-
+        Stones = gameObject.GetComponent<SpriteRenderer>();
         Velocitys(); // 방향값을 받는 함수.
     }
 

@@ -40,7 +40,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1491861674572488}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.6, y: -19.2, z: -10}
+  m_LocalPosition: {x: -73.4, y: -19.2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -100,7 +100,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 3d9f7b88a3f9ee0489adf2f3d3bf9f82, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.95
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -190,9 +190,6 @@ MonoBehaviour:
   xSmooth: 3
   ySmooth: 3
   player: {fileID: 0}
-  Cheak_01: {fileID: 0}
-  Cheak_02: {fileID: 0}
-  Boss_In: {fileID: 0}
   Sec_01_minXAndY: {x: -75.77, y: -19.2}
   Sec_01_maxXAndY: {x: -68.24, y: -18.73}
   Sec_02_minXAndY: {x: -46.86, y: -19.2}
@@ -216,13 +213,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sourceCamera: {fileID: 0}
   outlineCamera: {fileID: 0}
-  lineThickness: 3.5
+  lineThickness: 2
   lineIntensity: 5
   lineColor0: {r: 1, g: 0, b: 0, a: 1}
   lineColor1: {r: 0, g: 0.809, b: 0, a: 1}
   lineColor2: {r: 0, g: 0, b: 1, a: 1}
   flipY: 0
-  additiveRendering: 1
+  additiveRendering: 0
   alphaCutoff: 0.96
 --- !u!124 &124464139590119602
 Behaviour:

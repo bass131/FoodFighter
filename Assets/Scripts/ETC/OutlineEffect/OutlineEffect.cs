@@ -82,7 +82,7 @@ public class OutlineEffect : MonoBehaviour
         return m;
     }
 
-    void Start()
+    void Awake()
     {
         CreateMaterialsIfNeeded();
         UpdateMaterialsPublicProperties();

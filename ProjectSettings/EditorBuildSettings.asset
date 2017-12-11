@@ -9,11 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/TeamLogo.unity
     guid: eca05141015f2934591077ba1418797c
   - enabled: 1
-    path: Assets/Scenes/Title.unity
+    path: Assets/Scenes/MainTitle.unity
     guid: 4de9091ed26a89a45b022107d27262af
+  - enabled: 1
+    path: Assets/Scenes/Select.unity
+    guid: 11290d1fbd53bef49be377c17c8de9a8
   - enabled: 1
     path: Assets/Scenes/LoadingScene.unity
     guid: 39f88b9f1af94d74ba5c8e908cd54547
   - enabled: 1
-    path: Assets/Scenes/Stage.unity
+    path: Assets/Scenes/Stage1.unity
     guid: 57c4b9030b68fb4459391c0a40de5b25
+  - enabled: 1
+    path: Assets/Scenes/Stage2.unity
+    guid: 00000000000000000000000000000000

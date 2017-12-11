@@ -13,6 +13,9 @@ bullet.transform.parent = player.transform;
 
 public class FireCtrl : MonoBehaviour
 {
+
+    private Player Players;
+
 	public AudioClip attackSeClip;
 	AudioSource attackSeAudio;
 
@@ -32,9 +35,11 @@ public class FireCtrl : MonoBehaviour
 
 	// Use this for initialization
 	void Start () {
+        Players = GameObject.FindWithTag("Player").GetComponent<Player>();
 		fireTime = 0.0f;
 
         Bullet_01 = Resources.Load("Prefabs/Bullet/Bullet") as GameObject;
+
         attackSeAudio = gameObject.AddComponent<AudioSource> ();
 		attackSeAudio.clip = attackSeClip;
 		attackSeAudio.loop = false;
@@ -45,12 +50,9 @@ public class FireCtrl : MonoBehaviour
 	}
 
 	public void shootbullet()
-	{
-		if (Time.time > NextFire) 
+	{ 
 		{ // 좌 컨트롤을 누르면.
-			
-			NextFire = Time.time + fireRate;
-
+		
             GetObject(bullet_Type);
 			MakeBullet ();
             attackSeAudio.Play ();
@@ -59,6 +61,7 @@ public class FireCtrl : MonoBehaviour
 
 	void MakeBullet()
 	{
+        Players.Anim_Shoot();
 		GameObject instance = Instantiate (Bullets, firePos.position, firePos.rotation) as GameObject; 
 		// 총탄 오브젝트가 위치에 생성됨
 

@@ -21,14 +21,16 @@ public class Monster : MonoBehaviour {
     public float SPEED = 0; // 이동속도.
     public float SCALE = 1; // 몬스터 크기.
 
+    public float RANGE;
+
     public GameObject traceTarget; // 쫒아갈 대상.
     public Animator Anim; // 애니메이터.
 
-    private Rigidbody2D rig; // RigidBody2D.
-    private BoxCollider2D BoxCol; // 박스 콜라이더.
-    private CircleCollider2D CirCol; // 서클 콜라이더.
+    public Rigidbody2D rig; // RigidBody2D.
+    public BoxCollider2D BoxCol; // 박스 콜라이더.
+    public CircleCollider2D CirCol; // 서클 콜라이더.
 
-    private int MovementFlag = 0; // 0 = 대기, 1 = 왼쪽, 2 = 오른쪽.
+    protected int MovementFlag = 0; // 0 = 대기, 1 = 왼쪽, 2 = 오른쪽.
 
     protected float Attack_Delay; // 공격 대기 시간.
 
@@ -36,6 +38,8 @@ public class Monster : MonoBehaviour {
     protected bool isTracing; // 추적스위치.
     protected bool isAttacking; // 공격시작 스위치.
     public bool isAttack; //공격판정 스위치.
+
+    public bool canMove = true; // 움직일 수 있는가?
 
     // Use this for initialization
     void Start () {
@@ -90,8 +94,22 @@ public class Monster : MonoBehaviour {
             MoveVelocity = Vector3.right; // 움직임 방향 세팅 ' 오른쪽 '.
             transform.localScale = new Vector3(-SCALE, SCALE, SCALE); // 오브젝트의 스프라이트 반전 O.
         }
-        transform.position += MoveVelocity * SPEED * Time.deltaTime; // 몬스터의 위치 = 움직이는 방향 x 움직이는 속도 x 실시간 프레임.
+
+
+        if (canMove)
+        {
+            transform.position = transform.position + MoveVelocity * SPEED * Time.deltaTime; // 몬스터의 위치 = 움직이는 방향 x 움직이는 속도 x 실시간 프레임.
+        }
+        else if(!canMove)
+        {
+            transform.position = transform.position;
+        }
     }
+
+
+
+
+
 
 
 
@@ -100,6 +118,8 @@ public class Monster : MonoBehaviour {
     {
         if (HP <= 0)
         {
+            canMove = false;
+
             StopCoroutine("ChangeMovement"); // 움직임 변환 코루틴 중지.
 
             rig.isKinematic = true; // 물리 효과의 영향 제거.
@@ -117,6 +137,7 @@ public class Monster : MonoBehaviour {
             if(!isDie)
             {
                 StageManager.instance.Clear_Cheak(1);
+                UI_Manager.instance.AddScore(10);
                 isDie = true;
             }
 
@@ -127,6 +148,11 @@ public class Monster : MonoBehaviour {
         }
     } 
 
+
+
+
+
+
     IEnumerator ChangeMovement() // 움직임 변환 코루틴.
     {
         MovementFlag = Random.Range(0, 3); // 움직임 플래그 0 ~ 3 까지의 난수.
@@ -134,10 +160,12 @@ public class Monster : MonoBehaviour {
         if (MovementFlag == 0) // 움직임 플래그가 ' 0 ' 일 경우.
         {
             Anim.SetBool("Move", false); // "Move" 애니메이터 = false.
+            Anim.SetTrigger("Idle");
         }
         else if(MovementFlag == 1 || MovementFlag == 2)// 그 외의 값 일경우.
         {
             Anim.SetBool("Move", true); // "Move" 애니메이터 = true.
+            Anim.SetTrigger("Move");
         }
 
         yield return new WaitForSeconds(3f); // '3f' 딜레이 간격으로 실행.
@@ -146,13 +174,12 @@ public class Monster : MonoBehaviour {
     }
 
 
-    void OnCollisionEnter2D(Collision2D col) // 몬스터 피격 함수.
+    private void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag == "Bullet" && isDie == false) // 만약 "Bullet"태그의 오브젝트가 닿고 && 사망 플래그가 false 인 경우.
         {
-            StartCoroutine("HitEffect"); // 히트 이펙트 코루틴 시작.
+            //StartCoroutine("HitEffect"); // 히트 이펙트 코루틴 시작.
             --HP; // 체력 감소.
         }
     }
-
 }

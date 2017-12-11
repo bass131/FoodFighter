@@ -1,0 +1,296 @@
+fileFormatVersion: 2
+guid: 73102593dfa99854f9af8d5bf054650e
+timeCreated: 1512551200
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Boss_Guard_0
+    21300002: Boss_Guard_1
+    21300004: Boss_Guard_2
+    21300006: Boss_Guard_3
+    21300008: Boss_Guard_4
+    21300010: Boss_Guard_5
+    21300012: Boss_Guard_6
+    21300014: Boss_Guard_7
+    21300016: Boss_Guard_8
+    21300018: Boss_Guard_9
+    21300020: Boss_Guard_10
+    21300022: Boss_Guard_11
+    21300024: Boss_Guard_12
+    21300026: Boss_Guard_13
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss_Guard_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1215
+        width: 158
+        height: 216
+      alignment: 9
+      pivot: {x: 0.3096498, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Guard_1
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1218
+        width: 152
+        height: 213
+      alignment: 9
+      pivot: {x: 0.23704489, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Guard_2
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1215
+        width: 160
+        height: 216
+      alignment: 9
+      pivot: {x: 0.25851974, y: 0.012335883}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Guard_3
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1212
+        width: 156
+        height: 217
+      alignment: 9
+      pivot: {x: 0.20962563, y: 0.006111355}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Guard_4
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 857
+        width: 141
+        height: 220
+      alignment: 9
+      pivot: {x: 0.34320349, y: 0.01116555}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Guard_5
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 858
+        width: 156
+        height: 218
+      alignment: 9
+      pivot: {x: 0.26379865, y: 0.00000027997777}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Guard_6
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 858
+        width: 163
+        height: 210
+      alignment: 9
+      pivot: {x: 0.26524755, y: 0.0067487443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Guard_7
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 858
+        width: 157
+        height: 210
+      alignment: 9
+      pivot: {x: 0.29238367, y: 0.0000002906436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Guard_8
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 858
+        width: 154
+        height: 210
+      alignment: 9
+      pivot: {x: 0.3159473, y: 0.0067487443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Guard_9
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 858
+        width: 171
+        height: 209
+      alignment: 9
+      pivot: {x: 0.30938184, y: 0.00000029203423}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Guard_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 591
+        width: 150
+        height: 209
+      alignment: 9
+      pivot: {x: 0.29084966, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Guard_11
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 591
+        width: 171
+        height: 208
+      alignment: 9
+      pivot: {x: 0.31653476, y: -0.0076799258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Guard_12
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 590
+        width: 156
+        height: 218
+      alignment: 9
+      pivot: {x: 0.26714033, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Boss_Guard_13
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 590
+        width: 141
+        height: 218
+      alignment: 9
+      pivot: {x: 0.34776318, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

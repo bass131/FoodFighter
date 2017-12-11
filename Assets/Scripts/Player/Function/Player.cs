@@ -27,10 +27,14 @@ public class Player : MonoBehaviour, Actors {
     private CameraCRTL Camera; // 카메라.
 
     private FireCtrl fireCtrl; // 발사 컨트롤 스크립트.
-    private PlayerAnimation_Up Head; // 플레이어 상체 - 머리.
-    private PlayerAnimation_Up Body; // 플레이어 상체 - 몸.
-    private PlayerAnimation_Up Hand; // 플레이어 상체 - 손.
-    private PlayerAnimation_Bottom Player_Down; // 플레이어 하체.
+
+    private Animator Head; // 플레이어 상체 - 머리.
+    private Animator Body; // 플레이어 상체 - 몸.
+    private Animator Hand; // 플레이어 상체 - 손.
+    private Animator Player_Down; // 플레이어 하체.
+    private Animator Booster; // 부스터 애니메이터.
+    private Animator Gun; // 총 애니메이터.
+    private Animator Rocket; // 로켓 애니메이터.
 
     private Monster Monsters; // 몬스터 클래스.
 
@@ -40,6 +44,8 @@ public class Player : MonoBehaviour, Actors {
     public SpriteRenderer Sprites_Down; // 이미지 하체 스프라이트 렌더러.
 
     CircleCollider2D circle; // 원형 콜라이더.
+
+    public bool Die = false; //사망 트리거.
 
     public bool isEnd = false; // 종료 Bool 트리거.
     bool isAttacked = false; // 피격 Bool 트리거.
@@ -60,7 +66,6 @@ public class Player : MonoBehaviour, Actors {
 
     private RectTransform hpmaskRect; // UI 이미지 트랜스폼 값. 
 
-    public float Damage; // UI 데미지 값.
     public float maxHP; // 최대 체력.
     public float maxheart; // 최대 하트.
     public float hearthp; // 최대 HP값.
@@ -91,59 +96,69 @@ public class Player : MonoBehaviour, Actors {
     //==========스킬 관련 변수=============//
     public GameObject Barrior; // 방어스킬 방어막.
 
+    public UI_CoolTime JumpSkill; // 점프스킬 버튼.
+    public UI_CoolTime DashSkill; // 대쉬스킬 버튼.
+
 
     //==========점프 관련 변수=============//
     private float JumpPower = 130.0f; // 점프 파워.
     bool isjump; // 점프 트리거.
+
     public AudioClip jumpedSeClip; // 점프 사운드.
     AudioSource jumpedSeAudio;
+
+    public AudioClip DashSeClip; // 점프 사운드.
+    AudioSource DashSeAudio;
 
 
     private void Awake()
     {
         Camera = GameObject.FindWithTag("MainCamera").GetComponent<CameraCRTL>();
 
+        #region Sector
         //================================================================//
-        Sec_01_minXAndY.x = Camera.Sec_01_minXAndY.x - 12f; // 섹터 1의 이동가능한 X와 Y값의 최소값.
+        Sec_01_minXAndY.x = Camera.Sec_01_minXAndY.x - 8f; // 섹터 1의 이동가능한 X와 Y값의 최소값.
         Sec_01_minXAndY.y = 0; // 섹터 1의 이동가능한 X와 Y값의 최소값.
 
-        Sec_01_maxXAndY.x = Camera.Sec_01_maxXAndY.x + 12f; // 섹터 1의 이동가능한 X와 Y값의 최대값.
+        Sec_01_maxXAndY.x = Camera.Sec_01_maxXAndY.x + 8f; // 섹터 1의 이동가능한 X와 Y값의 최대값.
         Sec_01_maxXAndY.y = 0; // 섹터 1의 이동가능한 X와 Y값의 최대값.
 
         //-------------------------
-        Sec_02_minXAndY.x = Camera.Sec_02_minXAndY.x - 12f; // 섹터 2의 이동가능한 X와 Y값의 최소값.
+        Sec_02_minXAndY.x = Camera.Sec_02_minXAndY.x - 8f; // 섹터 2의 이동가능한 X와 Y값의 최소값.
         Sec_02_minXAndY.y = 0; // 섹터 2의 이동가능한 X와 Y값의 최소값.
 
-        Sec_02_maxXAndY.x = Camera.Sec_02_maxXAndY.x + 12f; // 섹터 2의 이동가능한 X와 Y값의 최대값.
+        Sec_02_maxXAndY.x = Camera.Sec_02_maxXAndY.x + 8f; // 섹터 2의 이동가능한 X와 Y값의 최대값.
         Sec_02_maxXAndY.y = 0; // 섹터 2의 이동가능한 X와 Y값의 최대값.
 
         //-------------------------
-        Sec_03_minXAndY.x = Camera.Sec_03_minXAndY.x - 12f; // 섹터 3의 이동가능한 X와 Y값의 최소값.
+        Sec_03_minXAndY.x = Camera.Sec_03_minXAndY.x - 8f; // 섹터 3의 이동가능한 X와 Y값의 최소값.
         Sec_03_minXAndY.y = 0; // 섹터 3의 이동가능한 X와 Y값의 최소값.
 
-        Sec_03_maxXAndY.x = Camera.Sec_03_maxXAndY.x + 12f; // 섹터 3의 이동가능한 X와 Y값의 최대값.
+        Sec_03_maxXAndY.x = Camera.Sec_03_maxXAndY.x + 8f; // 섹터 3의 이동가능한 X와 Y값의 최대값.
         Sec_03_maxXAndY.y = 0; // 섹터 3의 이동가능한 X와 Y값의 최대값.
 
         //-------------------------
-        Boss_minXAndY.x = Camera.Boss_minXAndY.x - 12f; // 보스 섹터의 이동가능한 X와 Y값의 최소값.
+        Boss_minXAndY.x = Camera.Boss_minXAndY.x - 8f; // 보스 섹터의 이동가능한 X와 Y값의 최소값.
         Boss_minXAndY.y = 0; // 보스 섹터의 이동가능한 X와 Y값의 최소값.
 
-        Boss_maxXAndY.x = Camera.Boss_maxXAndY.x + 12f; // 보스 섹터의 이동가능한 X와 Y값의 최대값.
+        Boss_maxXAndY.x = Camera.Boss_maxXAndY.x + 8f; // 보스 섹터의 이동가능한 X와 Y값의 최대값.
         Boss_maxXAndY.y = 0; // 보스 섹터의 이동가능한 X와 Y값의 최대값.
 
         //-------------------------
-        Boss_minXAndY.x = Camera.Boss_minXAndY.x - 12f; // 섹터 1의 이동가능한 X와 Y값의 최소값.
+        Boss_minXAndY.x = Camera.Boss_minXAndY.x - 8f; // 섹터 1의 이동가능한 X와 Y값의 최소값.
         Boss_minXAndY.y = 0; // 섹터 1의 이동가능한 X와 Y값의 최소값.
 
-        Boss_maxXAndY.x = Camera.Boss_maxXAndY.x + 12f; // 섹터 1의 이동가능한 X와 Y값의 최대값.
+        Boss_maxXAndY.x = Camera.Boss_maxXAndY.x + 8f; // 섹터 1의 이동가능한 X와 Y값의 최대값.
         Boss_maxXAndY.y = 0; // 섹터 1의 이동가능한 X와 Y값의 최대값.
 
         //-------------------------
-        total_minXAndY.x = Camera.total_minXAndY.x - 12f; // 섹터 1의 이동가능한 X와 Y값의 최소값.
+        total_minXAndY.x = Camera.total_minXAndY.x - 8f; // 섹터 1의 이동가능한 X와 Y값의 최소값.
         total_minXAndY.y = 0; // 섹터 1의 이동가능한 X와 Y값의 최소값.
 
-        total_maxXAndY.x = Camera.total_maxXAndY.x + 12f; // 섹터 1의 이동가능한 X와 Y값의 최대값.
+        total_maxXAndY.x = Camera.total_maxXAndY.x + 8f; // 섹터 1의 이동가능한 X와 Y값의 최대값.
         total_maxXAndY.y = 0; // 섹터 1의 이동가능한 X와 Y값의 최대값.
+#endregion
+
     }
     // Use this for initialization
     void Start() {
@@ -152,10 +167,13 @@ public class Player : MonoBehaviour, Actors {
 
         fireCtrl = GameObject.FindWithTag("Player").GetComponent<FireCtrl>(); // 발사 컨트롤 스크립트 초기화.
 
-        Head = GameObject.FindWithTag("Player_Head").GetComponent<PlayerAnimation_Up>(); // 상체 스프라이트 렌더 초기화.
-        Body = GameObject.FindWithTag("Player_Body").GetComponent<PlayerAnimation_Up>(); // 상체 스프라이트 렌더 초기화.
-        Hand = GameObject.FindWithTag("Player_Hand").GetComponent<PlayerAnimation_Up>(); // 상체 스프라이트 렌더 초기화.
-        Player_Down = GameObject.FindWithTag("Player_Down").GetComponent<PlayerAnimation_Bottom>(); // 하체 스프라이트 렌더 초기화.
+        Head = GameObject.FindWithTag("Player_Head").GetComponent<Animator>(); // 상체 스프라이트 렌더 초기화.
+        Body = GameObject.FindWithTag("Player_Body").GetComponent<Animator>(); // 상체 스프라이트 렌더 초기화.
+        Hand = GameObject.FindWithTag("Player_Hand").GetComponent<Animator>(); // 상체 스프라이트 렌더 초기화.
+        Player_Down = GameObject.FindWithTag("Player_Down").GetComponent<Animator>(); // 하체 스프라이트 렌더 초기화.
+        Booster = GameObject.FindWithTag("Booster").GetComponent<Animator>(); // 부스터 애니메이터.
+        Gun = GameObject.FindWithTag("Gun").GetComponent<Animator>(); // 총 애니메이터.
+        Rocket = GameObject.FindWithTag("Rocket").GetComponent<Animator>(); // 로켓 애니메이터.
 
         circle = gameObject.GetComponent<CircleCollider2D>(); // 원형 콜라이터 초기화.
 
@@ -164,6 +182,7 @@ public class Player : MonoBehaviour, Actors {
         Sprites_Body = GameObject.FindWithTag("Player_Body").GetComponent<SpriteRenderer>(); // 하체 스프라이트 렌더러 초기화.
         Sprites_Hand = GameObject.FindWithTag("Player_Hand").GetComponent<SpriteRenderer>(); // 하체 스프라이트 렌더러 초기화.
 
+
         attackedSeAudio = gameObject.AddComponent<AudioSource>(); // 피격 사운드 컴포넌트 초기화.
         attackedSeAudio.clip = attackedSeClip; // 피격 사운드 클립 초기화.
         attackedSeAudio.loop = false; // 피격 사운드 루프  = false. 
@@ -171,6 +190,10 @@ public class Player : MonoBehaviour, Actors {
         itemSeAudio = gameObject.AddComponent<AudioSource>(); // 아이템 획특 사운드 컴포넌트 초기화.
         itemSeAudio.clip = itemSeClip; // 아이템 획득 사운드 클립 초기화.
         itemSeAudio.loop = false; // 아이템 획득 사운드 루프  = false.
+
+        DashSeAudio = gameObject.AddComponent<AudioSource>(); // 아이템 획특 사운드 컴포넌트 초기화.
+        DashSeAudio.clip = DashSeClip; // 아이템 획득 사운드 클립 초기화.
+        DashSeAudio.loop = false; // 아이템 획득 사운드 루프  = false.
 
         jumpedSeAudio = gameObject.AddComponent<AudioSource>(); // 점프 사운드 컴포넌트 초기화.
         jumpedSeAudio.clip = jumpedSeClip;// 점프 사운드 클립 초기화.
@@ -182,8 +205,13 @@ public class Player : MonoBehaviour, Actors {
 
         hpmaskRect = hpmask.GetComponent<RectTransform>(); // 체력바 스프라이트 초기화.
         maxHpBarWidth = hpmaskRect.sizeDelta.x; // 체력바 스프라이트 최대 가로 길이 초기화.
+
         HP = maxHP; // 최대 체력 = maxHP 변수의 값.
         hearthp = maxheart; // 하트의 값 = 최대 하트의 값.
+
+        //================================================================//
+        JumpSkill = GameObject.FindWithTag("Jump_Skill").GetComponent<UI_CoolTime>();
+        DashSkill = GameObject.FindWithTag("Dash_Skill").GetComponent<UI_CoolTime>();
     }
 
     // Update is called once per frame
@@ -191,7 +219,6 @@ public class Player : MonoBehaviour, Actors {
         Skill();
         Move();
         DIE();
-        Jump();
     }
 
     
@@ -207,11 +234,17 @@ public class Player : MonoBehaviour, Actors {
 
         if (CrossPlatformInputManager.GetAxisRaw("Horizontal") < 0 && JoyStick.position.y < 175 && JoyStick.position.y > 60)
         {
+            Anim_Move();
             Player_L();
         }
         else if (CrossPlatformInputManager.GetAxisRaw("Horizontal") > 0 && JoyStick.position.y < 175 && JoyStick.position.y > 60)
         {
+            Anim_Move();
             Player_R();
+        }
+        else
+        {
+            Anim_Idle();
         }
 
         if (StageManager.instance.Player_State == StageManager.Stage.Move)
@@ -269,11 +302,11 @@ public class Player : MonoBehaviour, Actors {
 
 
 
-
-    void Jump() // 점프 함수.
+    public void Jump() // 점프 함수.
     {
-        if (Input.GetKey(KeyCode.LeftAlt) && !isjump)
+        if (!isjump)
         {
+            Anim_Jump();
             isjump = true;
             Debug.Log("점프시작");
             jumpedSeAudio.Play();
@@ -285,7 +318,7 @@ public class Player : MonoBehaviour, Actors {
     {
         if (col.gameObject.tag == "Road")
         {
-            isjump = false;
+            isjump = false; 
         }
     }
 
@@ -342,25 +375,15 @@ public class Player : MonoBehaviour, Actors {
 
     public void Skill_A() // 대쉬 스킬.
     {
-        ActiveTime = 2.0f;
+        if (DashSkill.canUseSkill == true)
+        {
+            Anim_Dash();
+            DashSeAudio.Play();
+            rigid.AddForce(new Vector2(ImageVec, 0) * 70f, ForceMode2D.Impulse);
 
-        Head.animator.SetBool("Dash", true); // 렌더 변경.
-        Body.animator.SetBool("Dash", true); // 렌더 변경.
-        Hand.animator.SetBool("Dash", true); // 렌더 변경.
-        Player_Down.animator.SetBool("Dash", true); // 렌더 변경.
-
-        rigid.AddForce(new Vector2(ImageVec, 0) * 40f, ForceMode2D.Impulse);
-
-        Invoke("invoke_A", 2.0f);
+            Invoke("invoke_A", 2.0f);
+        }
     }
-    void invoke_A()
-    {
-        Head.animator.SetBool("Dash", false); // 렌더 변경.
-        Body.animator.SetBool("Dash", false); // 렌더 변경.
-        Hand.animator.SetBool("Dash", false); // 렌더 변경.
-        Player_Down.animator.SetBool("Dash", false); // 렌더 변경.
-    }
-
 
 
 
@@ -368,24 +391,23 @@ public class Player : MonoBehaviour, Actors {
 
     private void Skill_B() // 방어 스킬.
     {
-        Head.animator.SetBool("Skill_B", true); // 렌더 변경.
-        Body.animator.SetBool("Skill_B", true); // 렌더 변경.
-        Hand.animator.SetBool("Skill_B", true); // 렌더 변경.
-        Player_Down.animator.SetBool("Skill_B", true); // 렌더 변경.
-
         Instantiate(Barrior, gameObject.transform.position + new Vector3(0,1.2f), gameObject.transform.rotation);
     }
     
 
     public void Skill_C() // 이단 점프.
     {
-        isjump = true;
+        if (JumpSkill.canUseSkill == true)
+        {
+            Anim_Jump();
+            isjump = true;
 
-        float SkillJump = JumpPower + 50.0f;
+            float SkillJump = JumpPower + 50.0f;
 
-        Debug.Log("점프시작");
-        jumpedSeAudio.Play();
-        rigid.AddForce(Vector3.up * SkillJump, ForceMode2D.Impulse);
+            Debug.Log("점프시작");
+            jumpedSeAudio.Play();
+            rigid.AddForce(Vector3.up * SkillJump, ForceMode2D.Impulse);
+        }
     }
 
     private void Skill_D() // 홀로그램 (미정)
@@ -400,18 +422,16 @@ public class Player : MonoBehaviour, Actors {
     public void DIE() // 플레이어 사망 함수.
     {
         if (HP <= 0)
-        {
+        { 
+            if (!Die)
+            {
+                Anim_Die();
+            }
+            Die = true;
             Destroy(circle);
 
             SPEED = 0;
             Time.timeScale = 0.5f;
-
-            SceneTime = SceneTime + Time.deltaTime;
-            if (SceneTime > 1.2f)
-            {
-                Time.timeScale = 1;
-                SceneManager.LoadScene("Stage_1");
-            }
         }
     }
 
@@ -434,61 +454,78 @@ public class Player : MonoBehaviour, Actors {
         if (HP > 0)
         {
             Debug.Log("GetDMG");
-
             HP = HP - atk; // 체력 소모.
             attackedSeAudio.Play(); // 피격 사운드 출력.
+
             hpLower();
-            
-            rigid.AddForce(new Vector2(ImageVec,0) * -1 * 35f, ForceMode2D.Impulse);
+            rigid.AddForce(new Vector2(ImageVec, 0) * -1 * 25f, ForceMode2D.Impulse);
 
-            Head.animator.SetBool("attacked", true); // 렌더 변경.
-            Body.animator.SetBool("attacked", true); // 렌더 변경.
-            Hand.animator.SetBool("attacked", true); // 렌더 변경.
-            Player_Down.animator.SetBool("attacked", true); // 렌더 변경.
-
-            Invoke("Hit_Invoke", 0.5f);
+            Anim_Hit();
         }
-
     }
-    void Hit_Invoke()
+
+
+    // 애니메이션 렌더 함수. 지역 처리로 숨겨놓음.
+#region anim
+    public void Anim_Idle()
     {
-        Head.animator.SetBool("attacked", false); // 렌더 변경.
-        Body.animator.SetBool("attacked", false); // 렌더 변경.
-        Hand.animator.SetBool("attacked", false); // 렌더 변경.
-        Player_Down.animator.SetBool("attacked", false); // 렌더 변경.
+        Head.SetTrigger("Idle");
+        Body.SetTrigger("Idle");
+        Hand.SetTrigger("Idle");
+        Player_Down.SetTrigger("Idle");
     }
 
-
-
-
-
-    IEnumerator HitEffect() // 피격 이펙트 코루틴.
+    public void Anim_Move()
     {
-        float CountTime = 0; // 카운트 경과 시간.
-
-        while (CountTime < 0.04f) // 카운트 경과 시간이 0.04f 미만 일때 까지 반복. 
-        {
-
-            if (CountTime % 0.04f == 0) // ' 카운트 경과 시간 % 0.04f ' 를 했을때 나머지가 0 인 경우.
-            {
-                Sprites_Head.color = new Color32(255, 90, 0, 255); // 빨간 음영을 추가.
-                Sprites_Body.color = new Color32(255, 90, 0, 255); // 빨간 음영을 추가.
-                Sprites_Hand.color = new Color32(255, 90, 0, 255); // 빨간 음영을 추가.
-                Sprites_Down.color = new Color32(255, 90, 0, 255); // 빨간 음영을 추가.
-            }
-
-            yield return new WaitForSeconds(0.2f); // '0.2f'의 딜레이를 줌.
-
-            CountTime = CountTime + 0.04f; // 카운트 경과 시간 = 경과시간 + 0.04f(매 프레임 마다 증가).
-
-        }
-
-        Sprites_Head.color = new Color32(255, 255, 255, 255); 
-        Sprites_Body.color = new Color32(255, 255, 255, 255); 
-        Sprites_Hand.color = new Color32(255, 255, 255, 255); 
-        Sprites_Down.color = new Color32(255, 255, 255, 255); // 스프라이트 컬러 모두 출력.
-
-        yield return null; // 종료.
-
+        Head.SetTrigger("Move");
+        Body.SetTrigger("Move");
+        Hand.SetTrigger("Move");
+        Player_Down.SetTrigger("Move");
     }
+
+    public void Anim_Shoot()
+    {
+        Head.SetTrigger("Shoot");
+        Body.SetTrigger("Shoot");
+        Hand.SetTrigger("Shoot");
+    }
+
+    public void Anim_Hit()
+    {
+        Head.SetTrigger("Hit");
+        Body.SetTrigger("Hit");
+        Hand.SetTrigger("Hit");
+        Player_Down.SetTrigger("Hit");
+    }
+
+    public void Anim_Jump()
+    {
+        Head.SetTrigger("Jump");
+        Body.SetTrigger("Jump");
+        Hand.SetTrigger("Jump");
+        Player_Down.SetTrigger("Jump");
+        Booster.SetTrigger("Jump");
+    }
+
+    public void Anim_Die()
+    {
+        Head.SetTrigger("Die");
+        Body.SetTrigger("Die");
+        Hand.SetTrigger("Die");
+        Player_Down.SetTrigger("Die");
+    }
+
+    public void Anim_Dash()
+    {
+        Head.SetTrigger("Dash");
+        Body.SetTrigger("Dash");
+        Hand.SetTrigger("Dash");
+        Player_Down.SetTrigger("Dash");
+        Booster.SetTrigger("Dash");
+        Gun.SetTrigger("Dash");
+        Rocket.SetTrigger("Dash");
+    }
+#endregion
 }
+
+

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 
-public class countdown : MonoBehaviour
+public class Countdown : MonoBehaviour
 {
     private float time = 30 * (60); // 30분.
     public Text scoreText;
